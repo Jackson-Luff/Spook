@@ -1,0 +1,1482 @@
+﻿[2015.08.06-05.08.23:269][  0]Log file open, 08/06/15 15:08:23
+[2015.08.06-05.08.23:269][  0]LogInit:Display: Running engine for game: Spook_Prototype
+[2015.08.06-05.08.23:269][  0]LogInit:Display: RandInit(1186978629) SRandInit(1186978629).
+[2015.08.06-05.08.23:269][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.06-05.08.23:269][  0]LogStats: Stats thread started
+[2015.08.06-05.08.23:269][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.06-05.08.23:269][  0]LogInit: API Version: 2579680
+[2015.08.06-05.08.23:269][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.06-05.08.23:269][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.06-05.08.23:269][  0]LogInit: Build Configuration: Development
+[2015.08.06-05.08.23:269][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.06-05.08.23:269][  0]LogInit: Command line:  
+[2015.08.06-05.08.23:269][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.06-05.08.23:269][  0]LogInit: Rocket: 1
+[2015.08.06-05.08.23:283][  0]LogInit: Using libcurl 7.41.0
+[2015.08.06-05.08.23:283][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.06-05.08.23:283][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.06-05.08.23:283][  0]LogInit:  - other features:
+[2015.08.06-05.08.23:283][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.06-05.08.23:283][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.06-05.08.23:283][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.06-05.08.23:283][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.06-05.08.23:283][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.06-05.08.23:284][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.06-05.08.23:284][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.06-05.08.23:284][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.06-05.08.23:284][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.06-05.08.23:284][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.06-05.08.23:295][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.06-05.08.23:336][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.06-05.08.23:348][  0]LogInit: Object subsystem initialized
+[2015.08.06-05.08.23:354][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.06-05.08.23:354][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Source Tree/Spook/Spook_Prototype 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.06-05.08.23:354][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.06-05.08.23:354][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Source Tree/Spook/Spook_Prototype 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.06-05.08.23:354][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.06-05.08.23:354][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Source Tree/Spook/Spook_Prototype 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.06-05.08.23:360][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.06-05.08.23:360][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.06-05.08.23:376][  0]LogInit: Computer: 902B34D117A1
+[2015.08.06-05.08.23:376][  0]LogInit: User: jacksonluff
+[2015.08.06-05.08.23:376][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.06-05.08.23:376][  0]LogInit: High frequency timer resolution =3.323603 MHz
+[2015.08.06-05.08.23:376][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.08.06-05.08.23:376][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.06-05.08.23:376][  0]LogMemory: Process Physical Memory: 50.32 MB used, 50.32 MB peak
+[2015.08.06-05.08.23:376][  0]LogMemory: Process Virtual Memory: 24.28 MB used, 24.28 MB peak
+[2015.08.06-05.08.23:376][  0]LogMemory: Physical Memory: 2407.27 MB used, 16343.68 MB total
+[2015.08.06-05.08.23:376][  0]LogMemory: Virtual Memory: 282.57 MB used, 8388608.00 MB total
+[2015.08.06-05.08.23:679][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.06-05.08.23:896][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.06-05.08.24:351][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660 Ti (Feature Level 11_0)
+[2015.08.06-05.08.24:351][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.08.06-05.08.24:351][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.06-05.08.24:355][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.08.24:355][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.06-05.08.24:355][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.08.06-05.08.24:363][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.06-05.08.24:385][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.06-05.08.26:183][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.06-05.08.26:196][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.06-05.08.26:210][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.06-05.08.26:224][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.06-05.08.26:239][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.06-05.08.26:253][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.06-05.08.26:265][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.06-05.08.26:278][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.06-05.08.26:290][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.06-05.08.26:302][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.06-05.08.26:315][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.06-05.08.26:328][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.06-05.08.26:400][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.06-05.08.26:412][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.06-05.08.26:424][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.06-05.08.26:440][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.06-05.08.26:440][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.06-05.08.26:847][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.06-05.08.26:987][  0]LogDerivedDataCache: Loaded boot cache 0.14s 53MB C:/Users/jackson.luff/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.06-05.08.26:987][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jackson.luff/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.06-05.08.26:987][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Source Tree/Spook/Spook_Prototype 4.8/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.06-05.08.26:987][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.06-05.08.26:987][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Source Tree/Spook/Spook_Prototype 4.8/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.06-05.08.26:987][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.06-05.08.27:150][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.06-05.08.27:163][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jackson.luff/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.06-05.08.29:958][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.06-05.08.29:976][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.06-05.08.29:976][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.06-05.08.30:019][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.06-05.08.30:019][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.06-05.08.30:748][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.06-05.08.32:974][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.08.06-05.08.32:987][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.06-05.08.33:008][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.06-05.08.33:450][  0]SourceControl: Info Source control is disabled
+[2015.08.06-05.08.33:487][  0]SourceControl: Info Source control is disabled
+[2015.08.06-05.08.33:499][  0]SourceControl: Info Source control is disabled
+[2015.08.06-05.08.33:509][  0]SourceControl: Info Source control is disabled
+[2015.08.06-05.08.33:822][  0]LogObj: 26440 objects as part of root set at end of initial load.
+[2015.08.06-05.08.33:822][  0]LogUObjectAllocator: 5438856 out of 0 bytes used by permanent object pool.
+[2015.08.06-05.08.33:919][  0]LogEngine: Initializing Engine...
+[2015.08.06-05.08.33:921][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.06-05.08.33:932][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.06-05.08.34:159][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.06-05.08.34:170][  0]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.08.34:210][  0]LogInit: FAudioDevice initialized.
+[2015.08.06-05.08.34:234][  0]LogDerivedDataCache: Saved boot cache 0.02s 53MB C:/Users/jackson.luff/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.06-05.08.34:239][  0]LogInit: Texture streaming: Disabled
+[2015.08.06-05.08.34:260][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.06-05.08.34:260][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.06-05.08.34:260][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 84f5543c4eae4eeb85427c8f31b15fed|7cf267475aab4bafb7b336aedadbdf03|766909cc-7ea2-4327-9533-350144afa63e
+[2015.08.06-05.08.34:261][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.06-05.08.34:300][  0]LogInit: Transaction tracking system initialized
+[2015.08.06-05.08.34:424][  0]BlueprintLog: New page: Editor Load
+[2015.08.06-05.08.35:104][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.06-05.08.35:104][  0]LogConsoleResponse:Display: 
+[2015.08.06-05.08.35:303][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.06-05.08.35:497][  0]SourceControl: Info Source control is disabled
+[2015.08.06-05.08.35:498][  0]Cmd: MAP LOAD FILE="../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.06-05.08.35:499][  0]LogEditorServer:Warning: Can't find file '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.08.06-05.08.35:499][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.06-05.08.35:528][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.003ms to complete.
+[2015.08.06-05.08.35:528][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.030
+[2015.08.06-05.08.35:681][  0]LogCollectionManager: Loaded 0 collections in 0.001584 seconds
+[2015.08.06-05.08.35:689][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 1807 classes and 307 folders.
+[2015.08.06-05.08.35:739][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.06-05.08.35:834][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.06-05.08.35:851][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.08.06-05.08.35:962][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.06-05.08.35:967][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.08.35:972][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.06-05.08.35:994][  0]LogLoad: Full Startup: 15.05 seconds (BP compile: 0.05 seconds)
+[2015.08.06-05.08.36:406][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.06-05.08.36:424][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.06-05.08.36:629][  0]LogRenderer: Reallocating scene render targets to support 1056x560 (Frame:2).
+[2015.08.06-05.08.37:118][  3]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.08.37:754][  4]LogAssetRegistry: Asset discovery search completed in 4.7901 seconds
+[2015.08.06-05.10.21:072][314]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.10.27:542][584]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.10.28:589][584]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.10.28:678][584]Cmd: MAP LOAD FILE="../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Spook/MapAndGameMode/Spook_World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.06-05.10.28:678][584]LightingResults: New page: Lighting Build
+[2015.08.06-05.10.28:699][584]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
+[2015.08.06-05.10.28:715][584]LoadErrors: New page: Loading map: Spook_World.umap
+[2015.08.06-05.10.28:716][584]MapCheck: New page: Map Check
+[2015.08.06-05.10.28:716][584]LightingResults: New page: Lighting Build
+[2015.08.06-05.10.28:723][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CF20680
+[2015.08.06-05.10.28:805][584]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.10.28:850][584]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.06-05.10.28:879][584]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.06-05.10.28:912][584]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.347ms to complete.
+[2015.08.06-05.10.28:912][584]LogFileHelpers: Loading map 'Spook_World' took 0.235
+[2015.08.06-05.11.32:707][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LowPolyDeadTree2)
+[2015.08.06-05.11.33:589][ 59]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2015.08.06-05.11.33:589][ 59]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2015.08.06-05.11.33:590][ 59]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2015.08.06-05.11.33:590][ 59]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
+[2015.08.06-05.11.33:590][ 59]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2015.08.06-05.11.33:590][ 59]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2015.08.06-05.11.33:590][ 59]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2015.08.06-05.11.33:590][ 59]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
+[2015.08.06-05.11.33:598][ 59]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.11.33:872][ 83]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.11.34:939][197]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.11.34:964][197]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.11.34:989][197]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.06-05.11.35:079][197]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.06-05.11.37:567][346]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.11.45:373][ 43]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.11.45:946][ 84]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.11.55:798][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Graveyard_Blockout)
+[2015.08.06-05.11.56:576][107]LogEditorViewport: Clicking on Actor (LMB): SheepController_C (SheepController)
+[2015.08.06-05.11.57:901][217]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.12.03:658][690]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.12.05:659][889]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.12.06:774][994]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.12.08:814][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Graveyard_Blockout)
+[2015.08.06-05.12.09:626][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Graveyard_Blockout)
+[2015.08.06-05.12.11:254][512]LogEditorViewport: Clicking on Actor (LMB): TriggerSphere (TriggerSphere)
+[2015.08.06-05.12.12:371][631]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.12.16:880][ 86]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.12.23:722][771]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.13.31:922][947]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.13.31:922][947]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.08.06-05.13.31:981][947]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.13.33:776][947]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.13.33:803][947]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.13.33:818][947]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.13.52:521][682]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.13.52:530][682]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.13.52:585][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.13.52:585][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.08.06-05.13.52:610][682]LogPlayLevel: PIE:  Blueprint regeneration took 89 ms (1 blueprints)
+[2015.08.06-05.13.52:628][682]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:13:52 am)
+[2015.08.06-05.13.52:628][682]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.13.52:658][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029478s)
+[2015.08.06-05.13.52:659][682]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.13.52:659][682]LogPlayLevel: PIE: World Init took: (0.001200s)
+[2015.08.06-05.13.52:660][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.031196s)
+[2015.08.06-05.13.52:687][682]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.13.52:697][682]LogInit: FAudioDevice initialized.
+[2015.08.06-05.13.52:761][682]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.13.52:771][682]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.13.52
+[2015.08.06-05.13.52:771][682]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.13.52:771][682]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.13.52:776][682]LogWorld: Bringing up level for play took: 0.010100
+[2015.08.06-05.13.52:780][682]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.607
+[2015.08.06-05.13.57:592][235]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B866340
+[2015.08.06-05.14.02:664][809]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.14.07:984][322]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.14.08:376][344]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.14.29:507][110]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.14.29:848][119]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.14.41:881][142]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.14.50:906][913]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.14.50:915][913]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.14.50:994][913]LogPlayLevel: PIE:  Blueprint regeneration took 88 ms (1 blueprints)
+[2015.08.06-05.14.50:994][913]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:14:50 am)
+[2015.08.06-05.14.50:995][913]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.14.51:025][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029926s)
+[2015.08.06-05.14.51:025][913]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.14.51:026][913]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2015.08.06-05.14.51:026][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.031351s)
+[2015.08.06-05.14.51:053][913]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.14.51:062][913]LogInit: FAudioDevice initialized.
+[2015.08.06-05.14.51:092][913]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.14.51:100][913]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.14.51
+[2015.08.06-05.14.51:100][913]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.14.51:100][913]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.14.51:101][913]LogWorld: Bringing up level for play took: 0.006802
+[2015.08.06-05.14.51:103][913]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.93
+[2015.08.06-05.14.54:003][229]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B3ADEE0
+[2015.08.06-05.15.07:224][711]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.15.07:235][711]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.15.07:313][711]LogPlayLevel: PIE:  Blueprint regeneration took 88 ms (1 blueprints)
+[2015.08.06-05.15.07:313][711]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:15:07 am)
+[2015.08.06-05.15.07:314][711]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.15.07:341][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027370s)
+[2015.08.06-05.15.07:342][711]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.15.07:342][711]LogPlayLevel: PIE: World Init took: (0.001170s)
+[2015.08.06-05.15.07:343][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.028744s)
+[2015.08.06-05.15.07:370][711]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.15.07:380][711]LogInit: FAudioDevice initialized.
+[2015.08.06-05.15.07:417][711]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.15.07:433][711]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.15.07
+[2015.08.06-05.15.07:433][711]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.15.07:434][711]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.15.07:435][711]LogWorld: Bringing up level for play took: 0.013725
+[2015.08.06-05.15.07:437][711]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.736
+[2015.08.06-05.15.17:951][954]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D3085E0
+[2015.08.06-05.15.20:866][274]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.15.36:555][732]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.15.40:435][ 77]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.15.41:432][122]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.15.43:825][351]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.15.45:240][435]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.15.56:806][554]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.15.57:170][565]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.16.07:165][496]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.16.07:440][511]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.16.13:618][145]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.16.13:628][145]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.16.13:712][145]LogPlayLevel: PIE:  Blueprint regeneration took 93 ms (1 blueprints)
+[2015.08.06-05.16.13:712][145]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:16:13 am)
+[2015.08.06-05.16.13:713][145]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.16.13:743][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029830s)
+[2015.08.06-05.16.13:743][145]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.16.13:744][145]LogPlayLevel: PIE: World Init took: (0.001204s)
+[2015.08.06-05.16.13:744][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.031236s)
+[2015.08.06-05.16.13:771][145]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.16.13:780][145]LogInit: FAudioDevice initialized.
+[2015.08.06-05.16.13:814][145]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.16.13:821][145]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.16.13
+[2015.08.06-05.16.13:821][145]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.16.13:822][145]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.16.13:823][145]LogWorld: Bringing up level for play took: 0.006760
+[2015.08.06-05.16.13:825][145]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.349
+[2015.08.06-05.16.16:190][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C3AF420
+[2015.08.06-05.16.17:238][481]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.16.22:167][817]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.16.22:176][817]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.16.22:256][817]LogPlayLevel: PIE:  Blueprint regeneration took 89 ms (1 blueprints)
+[2015.08.06-05.16.22:257][817]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:16:22 am)
+[2015.08.06-05.16.22:257][817]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.16.22:287][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029909s)
+[2015.08.06-05.16.22:288][817]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.16.22:288][817]LogPlayLevel: PIE: World Init took: (0.001185s)
+[2015.08.06-05.16.22:289][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.031292s)
+[2015.08.06-05.16.22:315][817]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.16.22:325][817]LogInit: FAudioDevice initialized.
+[2015.08.06-05.16.22:356][817]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.16.22:363][817]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.16.22
+[2015.08.06-05.16.22:363][817]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.16.22:363][817]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.16.22:364][817]LogWorld: Bringing up level for play took: 0.006741
+[2015.08.06-05.16.22:367][817]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.194
+[2015.08.06-05.16.27:431][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032A2AC00
+[2015.08.06-05.16.29:021][490]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.16.30:839][625]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.16.31:222][644]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.16.35:175][797]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.16.35:185][797]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.16.35:265][797]LogPlayLevel: PIE:  Blueprint regeneration took 90 ms (1 blueprints)
+[2015.08.06-05.16.35:265][797]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:16:35 am)
+[2015.08.06-05.16.35:266][797]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.16.35:296][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029817s)
+[2015.08.06-05.16.35:296][797]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.16.35:297][797]LogPlayLevel: PIE: World Init took: (0.001227s)
+[2015.08.06-05.16.35:297][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.031256s)
+[2015.08.06-05.16.35:324][797]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.16.35:333][797]LogInit: FAudioDevice initialized.
+[2015.08.06-05.16.35:369][797]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.16.35:385][797]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.16.35
+[2015.08.06-05.16.35:385][797]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.16.35:386][797]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.16.35:388][797]LogWorld: Bringing up level for play took: 0.015341
+[2015.08.06-05.16.35:394][797]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.78
+[2015.08.06-05.16.36:538][912]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030B62E80
+[2015.08.06-05.16.43:910][698]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.16.46:529][894]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.16.46:538][894]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.16.46:618][894]LogPlayLevel: PIE:  Blueprint regeneration took 89 ms (1 blueprints)
+[2015.08.06-05.16.46:618][894]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:16:46 am)
+[2015.08.06-05.16.46:619][894]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.16.46:648][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029531s)
+[2015.08.06-05.16.46:649][894]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.16.46:650][894]LogPlayLevel: PIE: World Init took: (0.001575s)
+[2015.08.06-05.16.46:650][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.031307s)
+[2015.08.06-05.16.46:678][894]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.16.46:688][894]LogInit: FAudioDevice initialized.
+[2015.08.06-05.16.46:721][894]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.16.46:729][894]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.16.46
+[2015.08.06-05.16.46:729][894]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.16.46:729][894]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.16.46:730][894]LogWorld: Bringing up level for play took: 0.007215
+[2015.08.06-05.16.46:733][894]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.56
+[2015.08.06-05.16.52:260][496]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018D7FD80
+[2015.08.06-05.17.21:896][800]LogEditorViewport: Clicking on Actor (LMB): SheepController_C (SheepController)
+[2015.08.06-05.17.23:316][925]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.17.29:750][353]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.17.29:759][353]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.17.29:843][353]LogPlayLevel: PIE:  Blueprint regeneration took 93 ms (1 blueprints)
+[2015.08.06-05.17.29:843][353]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:17:29 am)
+[2015.08.06-05.17.29:844][353]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.17.29:872][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028576s)
+[2015.08.06-05.17.29:873][353]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.17.29:874][353]LogPlayLevel: PIE: World Init took: (0.001277s)
+[2015.08.06-05.17.29:874][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.030052s)
+[2015.08.06-05.17.29:922][353]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.17.29:932][353]LogInit: FAudioDevice initialized.
+[2015.08.06-05.17.29:962][353]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.17.29:969][353]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.17.29
+[2015.08.06-05.17.29:969][353]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.17.29:969][353]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.17.29:970][353]LogWorld: Bringing up level for play took: 0.006663
+[2015.08.06-05.17.29:973][353]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.201
+[2015.08.06-05.17.40:549][138]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018D7E5C0
+[2015.08.06-05.17.42:289][226]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.17.44:370][337]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.17.44:376][337]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.17.44:391][337]LogPlayLevel: [PIE] Compiling SheepController before PIE...
+[2015.08.06-05.17.44:456][337]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_2.CollisionCylinder and CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.17.44:456][337]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_2.Arrow and ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.17.44:456][337]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_2.CharMoveComp and CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.17.44:456][337]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_2.CharacterMesh0 and SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.17.44:615][337]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.17.44:707][337]LogPlayLevel: PIE:  Blueprint regeneration took 336 ms (2 blueprints)
+[2015.08.06-05.17.44:707][337]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:17:44 am)
+[2015.08.06-05.17.44:708][337]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.17.44:737][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028916s)
+[2015.08.06-05.17.44:737][337]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.17.44:738][337]LogPlayLevel: PIE: World Init took: (0.001291s)
+[2015.08.06-05.17.44:738][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.030409s)
+[2015.08.06-05.17.44:790][337]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.17.44:799][337]LogInit: FAudioDevice initialized.
+[2015.08.06-05.17.44:829][337]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.17.44:836][337]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.17.44
+[2015.08.06-05.17.44:836][337]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.17.44:837][337]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.17.44:837][337]LogWorld: Bringing up level for play took: 0.006681
+[2015.08.06-05.17.44:840][337]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.666
+[2015.08.06-05.17.52:691][910]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.17.52:726][910]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003546B380
+[2015.08.06-05.17.55:347][ 56]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.17.57:725][193]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.17.58:164][213]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.18.00:009][330]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.18.00:013][330]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.18.00:027][330]LogPlayLevel: [PIE] Compiling SheepController before PIE...
+[2015.08.06-05.18.00:152][330]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.18.00:237][330]LogPlayLevel: PIE:  Blueprint regeneration took 227 ms (2 blueprints)
+[2015.08.06-05.18.00:237][330]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:18:00 am)
+[2015.08.06-05.18.00:238][330]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.18.00:265][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027597s)
+[2015.08.06-05.18.00:266][330]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.18.00:266][330]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2015.08.06-05.18.00:267][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029007s)
+[2015.08.06-05.18.00:314][330]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.18.00:323][330]LogInit: FAudioDevice initialized.
+[2015.08.06-05.18.00:353][330]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.18.00:360][330]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.18.00
+[2015.08.06-05.18.00:360][330]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.18.00:360][330]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.18.00:361][330]LogWorld: Bringing up level for play took: 0.006534
+[2015.08.06-05.18.00:363][330]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.189
+[2015.08.06-05.18.35:415][370]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.18.35:449][370]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032F2F740
+[2015.08.06-05.18.46:368][245]LogRenderer: Reallocating scene render targets to support 1056x912 (Frame:33260).
+[2015.08.06-05.20.37:426][145]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.20.37:429][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.20.37:443][145]LogPlayLevel: [PIE] Compiling SheepController before PIE...
+[2015.08.06-05.20.37:505][145]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_0.CollisionCylinder and CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.20.37:505][145]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_0.Arrow and ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.20.37:505][145]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_0.CharMoveComp and CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.20.37:505][145]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_0.CharacterMesh0 and SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_1.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.20.37:657][145]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.20.37:742][145]LogPlayLevel: PIE:  Blueprint regeneration took 316 ms (2 blueprints)
+[2015.08.06-05.20.37:743][145]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:20:37 am)
+[2015.08.06-05.20.37:743][145]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.20.37:772][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029244s)
+[2015.08.06-05.20.37:773][145]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.20.37:773][145]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2015.08.06-05.20.37:774][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.030648s)
+[2015.08.06-05.20.37:826][145]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.20.37:836][145]LogInit: FAudioDevice initialized.
+[2015.08.06-05.20.37:870][145]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.20.37:878][145]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.20.37
+[2015.08.06-05.20.37:878][145]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.20.37:878][145]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.20.37:879][145]LogWorld: Bringing up level for play took: 0.006687
+[2015.08.06-05.20.37:881][145]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.294
+[2015.08.06-05.20.42:174][449]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.20.42:210][449]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033001120
+[2015.08.06-05.20.47:477][804]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.20.47:480][804]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.20.47:495][804]LogPlayLevel: [PIE] Compiling SheepController before PIE...
+[2015.08.06-05.20.47:557][804]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_1.CollisionCylinder and CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_2.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.20.47:558][804]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_1.Arrow and ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_2.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.20.47:558][804]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_1.CharMoveComp and CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_2.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.20.47:558][804]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_1.CharacterMesh0 and SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_2.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.20.47:703][804]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.20.47:788][804]LogPlayLevel: PIE:  Blueprint regeneration took 310 ms (2 blueprints)
+[2015.08.06-05.20.47:788][804]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:20:47 am)
+[2015.08.06-05.20.47:788][804]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.20.47:818][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029266s)
+[2015.08.06-05.20.47:818][804]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.20.47:819][804]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2015.08.06-05.20.47:819][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.030628s)
+[2015.08.06-05.20.47:868][804]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.20.47:883][804]LogInit: FAudioDevice initialized.
+[2015.08.06-05.20.47:925][804]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.20.47:937][804]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.20.47
+[2015.08.06-05.20.47:937][804]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.20.47:937][804]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.20.47:938][804]LogWorld: Bringing up level for play took: 0.009544
+[2015.08.06-05.20.47:941][804]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.234
+[2015.08.06-05.20.50:879][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.20.50:914][  8]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FC6ACA0
+[2015.08.06-05.20.55:470][299]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.20.55:473][299]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.20.55:488][299]LogPlayLevel: [PIE] Compiling SheepController before PIE...
+[2015.08.06-05.20.55:550][299]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_2.CollisionCylinder and CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_3.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.20.55:550][299]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_2.Arrow and ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_3.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.20.55:550][299]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_2.CharMoveComp and CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_3.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.20.55:550][299]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_2.CharacterMesh0 and SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_3.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.20.55:696][299]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.20.55:781][299]LogPlayLevel: PIE:  Blueprint regeneration took 311 ms (2 blueprints)
+[2015.08.06-05.20.55:781][299]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:20:55 am)
+[2015.08.06-05.20.55:782][299]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.20.55:810][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028405s)
+[2015.08.06-05.20.55:811][299]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.20.55:812][299]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2015.08.06-05.20.55:812][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029782s)
+[2015.08.06-05.20.55:860][299]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.20.55:870][299]LogInit: FAudioDevice initialized.
+[2015.08.06-05.20.55:903][299]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.20.55:910][299]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.20.55
+[2015.08.06-05.20.55:910][299]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.20.55:911][299]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.20.55:912][299]LogWorld: Bringing up level for play took: 0.006667
+[2015.08.06-05.20.55:914][299]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.261
+[2015.08.06-05.20.58:174][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.20.58:211][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003BCCB1A0
+[2015.08.06-05.21.04:711][785]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.21.04:714][785]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.21.04:728][785]LogPlayLevel: [PIE] Compiling SheepController before PIE...
+[2015.08.06-05.21.04:791][785]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_3.CollisionCylinder and CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_4.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.21.04:791][785]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_3.Arrow and ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_4.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.21.04:791][785]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_3.CharMoveComp and CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_4.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.21.04:791][785]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_3.CharacterMesh0 and SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_4.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.21.04:941][785]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.21.05:027][785]LogPlayLevel: PIE:  Blueprint regeneration took 316 ms (2 blueprints)
+[2015.08.06-05.21.05:027][785]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:21:05 am)
+[2015.08.06-05.21.05:028][785]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.21.05:057][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029130s)
+[2015.08.06-05.21.05:057][785]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.21.05:058][785]LogPlayLevel: PIE: World Init took: (0.001170s)
+[2015.08.06-05.21.05:058][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.030502s)
+[2015.08.06-05.21.05:111][785]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.21.05:121][785]LogInit: FAudioDevice initialized.
+[2015.08.06-05.21.05:164][785]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.21.05:180][785]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.21.05
+[2015.08.06-05.21.05:180][785]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.21.05:180][785]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.21.05:182][785]LogWorld: Bringing up level for play took: 0.014844
+[2015.08.06-05.21.05:185][785]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 1.011
+[2015.08.06-05.21.19:301][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.21.19:336][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003BCD6DE0
+[2015.08.06-05.21.26:773][242]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.21.28:126][313]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.21.28:129][313]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.08.06-05.21.28:143][313]LogPlayLevel: [PIE] Compiling SheepController before PIE...
+[2015.08.06-05.21.28:205][313]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_4.CollisionCylinder and CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_5.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.21.28:205][313]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_4.Arrow and ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_5.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.21.28:205][313]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_4.CharMoveComp and CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_5.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.21.28:206][313]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_4.CharacterMesh0 and SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_5.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.21.28:354][313]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.21.28:439][313]LogPlayLevel: PIE:  Blueprint regeneration took 312 ms (2 blueprints)
+[2015.08.06-05.21.28:439][313]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:21:28 am)
+[2015.08.06-05.21.28:439][313]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.21.28:467][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027544s)
+[2015.08.06-05.21.28:467][313]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.21.28:468][313]LogPlayLevel: PIE: World Init took: (0.001340s)
+[2015.08.06-05.21.28:468][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029105s)
+[2015.08.06-05.21.28:517][313]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.21.28:532][313]LogInit: FAudioDevice initialized.
+[2015.08.06-05.21.28:569][313]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.21.28:585][313]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.21.28
+[2015.08.06-05.21.28:585][313]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.21.28:586][313]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.21.28:587][313]LogWorld: Bringing up level for play took: 0.014427
+[2015.08.06-05.21.28:592][313]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.416
+[2015.08.06-05.21.51:437][952]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.21.51:473][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C54BBA0
+[2015.08.06-05.21.58:914][445]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.21.58:917][445]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.21.58:931][445]LogPlayLevel: [PIE] Compiling SheepController before PIE...
+[2015.08.06-05.21.58:993][445]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_5.CollisionCylinder and CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_6.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.21.58:993][445]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_5.Arrow and ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_6.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.21.58:993][445]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_5.CharMoveComp and CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_6.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.21.58:993][445]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_5.CharacterMesh0 and SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_6.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.21.59:139][445]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.21.59:224][445]LogPlayLevel: PIE:  Blueprint regeneration took 310 ms (2 blueprints)
+[2015.08.06-05.21.59:225][445]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:21:59 am)
+[2015.08.06-05.21.59:225][445]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.21.59:253][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028012s)
+[2015.08.06-05.21.59:254][445]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.21.59:254][445]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2015.08.06-05.21.59:255][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029465s)
+[2015.08.06-05.21.59:303][445]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.21.59:324][445]LogInit: FAudioDevice initialized.
+[2015.08.06-05.21.59:361][445]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.21.59:376][445]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.21.59
+[2015.08.06-05.21.59:376][445]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.21.59:377][445]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.21.59:379][445]LogWorld: Bringing up level for play took: 0.014750
+[2015.08.06-05.21.59:384][445]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 1.209
+[2015.08.06-05.22.37:574][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.22.37:609][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003AF0F7E0
+[2015.08.06-05.23.12:735][815]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.23.32:168][121]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.23.41:167][148]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.23.41:458][148]LogSavePackage: Save=112.470413ms
+[2015.08.06-05.23.41:458][148]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/Spook_World_Auto164FFF01D45CC501B17A95290A973E0A1.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/Autosaves/Game/Spook/MapAndGameMode/Spook_World_Auto1.umap'
+[2015.08.06-05.23.41:462][148]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Spook/MapAndGameMode/Spook_World' took 0.158
+[2015.08.06-05.23.41:462][148]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.158
+[2015.08.06-05.23.41:468][148]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Spook/Characters/Sheep/SheepController] ([1] browsable assets)...
+[2015.08.06-05.23.41:502][148]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Spook/Characters/Sheep/SheepController.SheepController]
+[2015.08.06-05.23.41:502][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/Spook/Characters/Sheep/SheepController]
+[2015.08.06-05.23.41:583][148]LogSavePackage: Save=75.240036ms
+[2015.08.06-05.23.41:583][148]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/SheepController_Auto1A0A0250E446C7B7C2CFB669F9B044F99.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/Autosaves/Game/Spook/Characters/Sheep/SheepController_Auto1.uasset'
+[2015.08.06-05.23.41:584][148]LogFileHelpers: Auto-saving content packages took 0.120
+[2015.08.06-05.24.05:420][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.24.07:266][622]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.24.07:269][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.08.06-05.24.07:283][622]LogPlayLevel: [PIE] Compiling SheepController before PIE...
+[2015.08.06-05.24.07:348][622]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_6.CollisionCylinder and CapsuleComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_7.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.24.07:348][622]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_6.Arrow and ArrowComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_7.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.24.07:348][622]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_6.CharMoveComp and CharacterMovementComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_7.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.24.07:348][622]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_6.CharacterMesh0 and SkeletalMeshComponent /Game/Spook/MapAndGameMode/Spook_World.Spook_World:PersistentLevel.SheepController_C_7.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.06-05.24.07:496][622]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.24.07:585][622]LogPlayLevel: PIE:  Blueprint regeneration took 319 ms (2 blueprints)
+[2015.08.06-05.24.07:585][622]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:24:07 am)
+[2015.08.06-05.24.07:586][622]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.24.07:615][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029232s)
+[2015.08.06-05.24.07:616][622]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.24.07:616][622]LogPlayLevel: PIE: World Init took: (0.001471s)
+[2015.08.06-05.24.07:617][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.030936s)
+[2015.08.06-05.24.07:666][622]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.24.07:680][622]LogInit: FAudioDevice initialized.
+[2015.08.06-05.24.07:717][622]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.24.07:730][622]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.24.07
+[2015.08.06-05.24.07:731][622]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.24.07:731][622]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.24.07:733][622]LogWorld: Bringing up level for play took: 0.012560
+[2015.08.06-05.24.07:736][622]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.44
+[2015.08.06-05.25.07:396][687]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.25.08:668][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F296DE0
+[2015.08.06-05.25.09:521][837]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.25.09:529][837]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.25.09:609][837]LogPlayLevel: PIE:  Blueprint regeneration took 88 ms (1 blueprints)
+[2015.08.06-05.25.09:609][837]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:25:09 am)
+[2015.08.06-05.25.09:610][837]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.25.09:636][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026185s)
+[2015.08.06-05.25.09:637][837]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.25.09:637][837]LogPlayLevel: PIE: World Init took: (0.001186s)
+[2015.08.06-05.25.09:637][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.027604s)
+[2015.08.06-05.25.09:691][837]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.25.09:701][837]LogInit: FAudioDevice initialized.
+[2015.08.06-05.25.09:729][837]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.25.09:736][837]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.25.09
+[2015.08.06-05.25.09:736][837]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.25.09:736][837]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.25.09:737][837]LogWorld: Bringing up level for play took: 0.006793
+[2015.08.06-05.25.09:740][837]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.437
+[2015.08.06-05.25.40:728][451]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F2825C0
+[2015.08.06-05.25.41:446][493]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.25.41:455][493]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.25.41:535][493]LogPlayLevel: PIE:  Blueprint regeneration took 88 ms (1 blueprints)
+[2015.08.06-05.25.41:535][493]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:25:41 am)
+[2015.08.06-05.25.41:535][493]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.25.41:562][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026492s)
+[2015.08.06-05.25.41:563][493]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.25.41:563][493]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2015.08.06-05.25.41:563][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.027953s)
+[2015.08.06-05.25.41:613][493]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.25.41:623][493]LogInit: FAudioDevice initialized.
+[2015.08.06-05.25.41:651][493]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.25.41:658][493]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.25.41
+[2015.08.06-05.25.41:658][493]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.25.41:659][493]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.25.41:660][493]LogWorld: Bringing up level for play took: 0.006912
+[2015.08.06-05.25.41:662][493]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.515
+[2015.08.06-05.26.28:611][470]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003AA53100
+[2015.08.06-05.26.40:422][361]Cmd: UpdateLandscapeSetup
+[2015.08.06-05.26.43:151][529]Cmd: UpdateLandscapeSetup
+[2015.08.06-05.26.44:996][651]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.26.45:005][651]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.26.45:084][651]LogPlayLevel: PIE:  Blueprint regeneration took 88 ms (1 blueprints)
+[2015.08.06-05.26.45:084][651]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:26:45 am)
+[2015.08.06-05.26.45:085][651]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.26.45:113][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027675s)
+[2015.08.06-05.26.45:114][651]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.26.45:114][651]LogPlayLevel: PIE: World Init took: (0.001447s)
+[2015.08.06-05.26.45:114][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029358s)
+[2015.08.06-05.26.45:163][651]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.26.45:173][651]LogInit: FAudioDevice initialized.
+[2015.08.06-05.26.45:215][651]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.26.45:231][651]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.26.45
+[2015.08.06-05.26.45:231][651]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.26.45:232][651]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.26.45:234][651]LogWorld: Bringing up level for play took: 0.014931
+[2015.08.06-05.26.45:236][651]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 1.059
+[2015.08.06-05.26.46:548][753]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003AA53D80
+[2015.08.06-05.26.50:315][ 34]Cmd: UpdateLandscapeSetup
+[2015.08.06-05.26.50:364][ 36]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.26.50:372][ 36]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.26.50:451][ 36]LogPlayLevel: PIE:  Blueprint regeneration took 87 ms (1 blueprints)
+[2015.08.06-05.26.50:451][ 36]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:26:50 am)
+[2015.08.06-05.26.50:452][ 36]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.26.50:480][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027854s)
+[2015.08.06-05.26.50:481][ 36]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.26.50:481][ 36]LogPlayLevel: PIE: World Init took: (0.001230s)
+[2015.08.06-05.26.50:481][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029294s)
+[2015.08.06-05.26.50:534][ 36]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.26.50:544][ 36]LogInit: FAudioDevice initialized.
+[2015.08.06-05.26.50:572][ 36]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.26.50:579][ 36]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.26.50
+[2015.08.06-05.26.50:579][ 36]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.26.50:579][ 36]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.26.50:580][ 36]LogWorld: Bringing up level for play took: 0.006738
+[2015.08.06-05.26.50:583][ 36]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.405
+[2015.08.06-05.27.26:198][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B77E020
+[2015.08.06-05.27.27:207][125]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.27.27:216][125]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.27.27:296][125]LogPlayLevel: PIE:  Blueprint regeneration took 88 ms (1 blueprints)
+[2015.08.06-05.27.27:296][125]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:27:27 am)
+[2015.08.06-05.27.27:296][125]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.27.27:323][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026226s)
+[2015.08.06-05.27.27:323][125]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.27.27:324][125]LogPlayLevel: PIE: World Init took: (0.001176s)
+[2015.08.06-05.27.27:324][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.027610s)
+[2015.08.06-05.27.27:377][125]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.27.27:390][125]LogInit: FAudioDevice initialized.
+[2015.08.06-05.27.27:429][125]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.27.27:444][125]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.27.27
+[2015.08.06-05.27.27:444][125]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.27.27:444][125]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.27.27:445][125]LogWorld: Bringing up level for play took: 0.012984
+[2015.08.06-05.27.27:448][125]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.73
+[2015.08.06-05.27.38:614][ 88]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043E2F740
+[2015.08.06-05.27.39:330][133]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.27.39:338][133]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.27.39:418][133]LogPlayLevel: PIE:  Blueprint regeneration took 88 ms (1 blueprints)
+[2015.08.06-05.27.39:418][133]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:27:39 am)
+[2015.08.06-05.27.39:419][133]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.27.39:445][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026469s)
+[2015.08.06-05.27.39:446][133]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.27.39:447][133]LogPlayLevel: PIE: World Init took: (0.001230s)
+[2015.08.06-05.27.39:447][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.027915s)
+[2015.08.06-05.27.39:500][133]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.27.39:516][133]LogInit: FAudioDevice initialized.
+[2015.08.06-05.27.39:557][133]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.27.39:568][133]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.27.39
+[2015.08.06-05.27.39:568][133]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.27.39:568][133]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.27.39:569][133]LogWorld: Bringing up level for play took: 0.008299
+[2015.08.06-05.27.39:572][133]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.606
+[2015.08.06-05.27.51:807][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000441CE8E0
+[2015.08.06-05.27.54:505][365]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.27.54:737][376]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.28.23:899][839]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.28.28:409][129]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.28.30:419][253]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.28.30:958][275]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.28.34:566][623]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.28.38:040][916]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.28.38:049][916]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.28.38:132][916]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
+[2015.08.06-05.28.38:132][916]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:28:38 am)
+[2015.08.06-05.28.38:132][916]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.28.38:162][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029458s)
+[2015.08.06-05.28.38:162][916]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.28.38:163][916]LogPlayLevel: PIE: World Init took: (0.001184s)
+[2015.08.06-05.28.38:163][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.030876s)
+[2015.08.06-05.28.38:219][916]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.28.38:238][916]LogInit: FAudioDevice initialized.
+[2015.08.06-05.28.38:278][916]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.28.38:288][916]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.28.38
+[2015.08.06-05.28.38:288][916]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.28.38:288][916]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.28.38:290][916]LogWorld: Bringing up level for play took: 0.009434
+[2015.08.06-05.28.38:293][916]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.115
+[2015.08.06-05.28.47:176][939]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004272ADE0
+[2015.08.06-05.28.52:327][496]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.28.52:336][496]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.28.52:417][496]LogPlayLevel: PIE:  Blueprint regeneration took 90 ms (1 blueprints)
+[2015.08.06-05.28.52:417][496]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:28:52 am)
+[2015.08.06-05.28.52:418][496]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.28.52:444][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026173s)
+[2015.08.06-05.28.52:445][496]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.28.52:445][496]LogPlayLevel: PIE: World Init took: (0.001278s)
+[2015.08.06-05.28.52:446][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.027669s)
+[2015.08.06-05.28.52:497][496]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.28.52:507][496]LogInit: FAudioDevice initialized.
+[2015.08.06-05.28.52:542][496]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.28.52:549][496]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.28.52
+[2015.08.06-05.28.52:549][496]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.28.52:550][496]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.28.52:551][496]LogWorld: Bringing up level for play took: 0.006942
+[2015.08.06-05.28.52:553][496]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.375
+[2015.08.06-05.29.16:087][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004568EF20
+[2015.08.06-05.29.20:612][623]Cmd: UpdateLandscapeSetup
+[2015.08.06-05.29.22:082][732]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.29.22:092][732]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.29.22:173][732]LogPlayLevel: PIE:  Blueprint regeneration took 90 ms (1 blueprints)
+[2015.08.06-05.29.22:173][732]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:29:22 am)
+[2015.08.06-05.29.22:173][732]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.29.22:201][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027858s)
+[2015.08.06-05.29.22:202][732]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.29.22:203][732]LogPlayLevel: PIE: World Init took: (0.001304s)
+[2015.08.06-05.29.22:203][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029391s)
+[2015.08.06-05.29.22:258][732]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.29.22:279][732]LogInit: FAudioDevice initialized.
+[2015.08.06-05.29.22:318][732]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.29.22:332][732]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.29.22
+[2015.08.06-05.29.22:332][732]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.29.22:333][732]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.29.22:334][732]LogWorld: Bringing up level for play took: 0.012685
+[2015.08.06-05.29.22:339][732]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.16
+[2015.08.06-05.29.42:815][139]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000458114E0
+[2015.08.06-05.29.47:159][565]Cmd: UpdateLandscapeSetup
+[2015.08.06-05.29.47:615][611]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.08.06-05.29.55:194][ 67]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.29.55:219][ 67]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\jackson.luff\Downloads\FallingTree.fbx)
+[2015.08.06-05.29.55:240][ 67]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.08.06-05.29.55:240][ 67]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.08.06-05.29.55:240][ 67]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.08.06-05.29.55:240][ 67]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.08.06-05.29.55:240][ 67]LogFbx: ItemName: Material, ItemCount : 1
+[2015.08.06-05.29.55:240][ 67]LogFbx: ItemName: Model, ItemCount : 3
+[2015.08.06-05.29.55:240][ 67]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2015.08.06-05.29.55:240][ 67]LogFbx: ItemName: AnimationCurveNode, ItemCount : 6
+[2015.08.06-05.29.55:240][ 67]LogFbx: ItemName: AnimationCurve, ItemCount : 10
+[2015.08.06-05.29.55:240][ 67]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.08.06-05.29.55:240][ 67]LogFbx: ItemName: Deformer, ItemCount : 3
+[2015.08.06-05.29.55:260][ 67]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.30.02:889][ 67]LogFbx: Loading FBX Scene from C:\Users\jackson.luff\Downloads\FallingTree.fbx
+[2015.08.06-05.30.02:920][ 67]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.06-05.30.02:923][ 67]LogFbx: =================================================
+[2015.08.06-05.30.02:923][ 67]LogFbx: Dumping Node START [LowPolyLiveTree:Group9] 
+[2015.08.06-05.30.02:923][ 67]LogFbx: 	Total Deformer Count 1118965376.
+[2015.08.06-05.30.02:923][ 67]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.06-05.30.02:923][ 67]LogFbx: =================================================
+[2015.08.06-05.30.02:923][ 67]LogFbx: 	Attribute () Type (4).
+[2015.08.06-05.30.02:923][ 67]LogFbx: 		[Node Attribute Child 1] LowPolyLiveTree:Group9 (Type Mesh).
+[2015.08.06-05.30.02:923][ 67]LogFbx: Dumping Node END [LowPolyLiveTree:Group9]
+[2015.08.06-05.30.02:923][ 67]LogFbx: =================================================
+[2015.08.06-05.30.02:923][ 67]LogFbx: Dumping Node START [LowPolyLiveTree:Group9] 
+[2015.08.06-05.30.02:923][ 67]LogFbx: 	Total Deformer Count 1118965376.
+[2015.08.06-05.30.02:923][ 67]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.06-05.30.02:923][ 67]LogFbx: =================================================
+[2015.08.06-05.30.02:923][ 67]LogFbx: 	Attribute () Type (4).
+[2015.08.06-05.30.02:923][ 67]LogFbx: 		[Node Attribute Child 1] LowPolyLiveTree:Group9 (Type Mesh).
+[2015.08.06-05.30.02:923][ 67]LogFbx: Dumping Node END [LowPolyLiveTree:Group9]
+[2015.08.06-05.30.02:925][ 67]LogFbx: Valid bind pose for Pose (skinCluster1) - LowPolyLiveTree:Group9
+[2015.08.06-05.30.03:160][ 67]LogFbx:Warning: Bones digested - 2  Depth of hierarchy - 2
+[2015.08.06-05.30.04:394][ 67]LogSkeletalMesh: Chunk 0: 12978 rigid vertices, 47897 soft vertices, 2 active bones
+[2015.08.06-05.30.04:429][ 67]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 30544 triangles
+[2015.08.06-05.30.04:438][ 67]LogLinker:Warning: Can't find file '/Game/Test/FallingTree_PhysicsAsset'
+[2015.08.06-05.30.04:438][ 67]LogLinker:Warning: Can't find file '/Game/Test/FallingTree_PhysicsAsset'
+[2015.08.06-05.30.04:438][ 67]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Test/FallingTree_PhysicsAsset.FallingTree_PhysicsAsset'
+[2015.08.06-05.30.04:453][ 67]LogLinker:Warning: Can't find file '/Game/Test/FallingTree_Skeleton'
+[2015.08.06-05.30.04:453][ 67]LogLinker:Warning: Can't find file '/Game/Test/FallingTree_Skeleton'
+[2015.08.06-05.30.04:453][ 67]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Test/FallingTree_Skeleton.FallingTree_Skeleton'
+[2015.08.06-05.30.04:466][ 67]LogFbx: =================================================
+[2015.08.06-05.30.04:466][ 67]LogFbx: Dumping Node START [LowPolyLiveTree:Group9] 
+[2015.08.06-05.30.04:466][ 67]LogFbx: 	Total Deformer Count 996818080.
+[2015.08.06-05.30.04:466][ 67]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.06-05.30.04:466][ 67]LogFbx: =================================================
+[2015.08.06-05.30.04:466][ 67]LogFbx: 	Attribute () Type (4).
+[2015.08.06-05.30.04:466][ 67]LogFbx: 		[Node Attribute Child 1] LowPolyLiveTree:Group9 (Type Mesh).
+[2015.08.06-05.30.04:466][ 67]LogFbx: Dumping Node END [LowPolyLiveTree:Group9]
+[2015.08.06-05.30.04:466][ 67]LogFbx: =================================================
+[2015.08.06-05.30.04:466][ 67]LogFbx: Dumping Node START [LowPolyLiveTree:Group9] 
+[2015.08.06-05.30.04:466][ 67]LogFbx: 	Total Deformer Count 996818080.
+[2015.08.06-05.30.04:466][ 67]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.06-05.30.04:466][ 67]LogFbx: =================================================
+[2015.08.06-05.30.04:466][ 67]LogFbx: 	Attribute () Type (4).
+[2015.08.06-05.30.04:466][ 67]LogFbx: 		[Node Attribute Child 1] LowPolyLiveTree:Group9 (Type Mesh).
+[2015.08.06-05.30.04:466][ 67]LogFbx: Dumping Node END [LowPolyLiveTree:Group9]
+[2015.08.06-05.30.04:466][ 67]LogFbx: SortedLinks :(0) joint1
+[2015.08.06-05.30.04:466][ 67]LogFbx: SortedLinks :(1) joint2
+[2015.08.06-05.30.04:467][ 67]LogFbx: Parsing AnimStack Take 001
+[2015.08.06-05.30.04:468][ 67]LogLinker:Warning: Can't find file '/Game/Test/FallingTree_Anim'
+[2015.08.06-05.30.04:468][ 67]LogLinker:Warning: Can't find file '/Game/Test/FallingTree_Anim'
+[2015.08.06-05.30.04:468][ 67]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Test/FallingTree_Anim.FallingTree_Anim'
+[2015.08.06-05.30.12:017][838]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.30.14:410][ 61]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.30.14:419][ 61]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.30.14:479][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.30.14:479][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.08.06-05.30.14:504][ 61]LogPlayLevel: PIE:  Blueprint regeneration took 93 ms (1 blueprints)
+[2015.08.06-05.30.14:504][ 61]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:30:14 am)
+[2015.08.06-05.30.14:504][ 61]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.30.14:531][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026844s)
+[2015.08.06-05.30.14:532][ 61]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.30.14:533][ 61]LogPlayLevel: PIE: World Init took: (0.001252s)
+[2015.08.06-05.30.14:533][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.028314s)
+[2015.08.06-05.30.14:560][ 61]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.30.14:570][ 61]LogInit: FAudioDevice initialized.
+[2015.08.06-05.30.14:599][ 61]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.30.14:606][ 61]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.30.14
+[2015.08.06-05.30.14:606][ 61]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.30.14:607][ 61]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.30.14:609][ 61]LogWorld: Bringing up level for play took: 0.008371
+[2015.08.06-05.30.14:612][ 61]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.433
+[2015.08.06-05.30.16:205][228]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F475620
+[2015.08.06-05.30.21:511][794]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.30.21:712][794]LogSavePackage: Save=115.407288ms
+[2015.08.06-05.30.21:712][794]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/Spook_WorldEE9D490C4593E49F1D57D1A3787A3BA6.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Spook/MapAndGameMode/Spook_World.umap'
+[2015.08.06-05.30.21:739][794]LogFileHelpers: Saving map 'Spook_World' took 0.221
+[2015.08.06-05.30.21:761][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Spook/Characters/Sheep/SheepController" FILE="../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Spook/Characters/Sheep/SheepController.uasset" SILENT=true
+[2015.08.06-05.30.21:843][794]LogSavePackage: Save=75.093208ms
+[2015.08.06-05.30.21:843][794]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/SheepControllerBC36E0B944E96F9B6E04E89E19B5E903.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Spook/Characters/Sheep/SheepController.uasset'
+[2015.08.06-05.30.21:865][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test/FallingTree" FILE="../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree.uasset" SILENT=true
+[2015.08.06-05.30.21:950][794]LogSavePackage: Save=83.412186ms
+[2015.08.06-05.30.21:950][794]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/FallingTree819595AD48CC60716220BF82C0EF7BD4.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree.uasset'
+[2015.08.06-05.30.21:958][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test/FallingTree_PhysicsAsset" FILE="../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree_PhysicsAsset.uasset" SILENT=true
+[2015.08.06-05.30.21:962][794]LogSavePackage: Save=2.782222ms
+[2015.08.06-05.30.21:962][794]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/FallingTree_PhysicsAsset8C15E2F84771983FD4665D85DC145D08.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree_PhysicsAsset.uasset'
+[2015.08.06-05.30.21:968][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test/FallingTree_Skeleton" FILE="../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree_Skeleton.uasset" SILENT=true
+[2015.08.06-05.30.21:974][794]LogSavePackage: Save=2.499697ms
+[2015.08.06-05.30.21:974][794]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/FallingTree_Skeleton335859534ACF4F149B242E8D3FF3DD2F.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree_Skeleton.uasset'
+[2015.08.06-05.30.21:986][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test/FallingTree_Anim" FILE="../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree_Anim.uasset" SILENT=true
+[2015.08.06-05.30.21:993][794]LogSavePackage: Save=5.594531ms
+[2015.08.06-05.30.21:993][794]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/FallingTree_Anim0BC4CDF9465C6ACB3508F5A70B91F72E.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree_Anim.uasset'
+[2015.08.06-05.30.23:929][993]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Open_blockout)
+[2015.08.06-05.30.23:956][993]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.30.25:294][ 98]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.30.25:583][ 98]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.08.06-05.30.25:644][ 98]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.06-05.30.25:741][ 98]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.06-05.30.48:881][ 90]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.30.54:778][610]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.30.54:787][610]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.30.54:847][610]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.30.54:887][610]LogPlayLevel: PIE:  Blueprint regeneration took 109 ms (1 blueprints)
+[2015.08.06-05.30.54:887][610]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:30:54 am)
+[2015.08.06-05.30.54:888][610]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.30.54:917][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029241s)
+[2015.08.06-05.30.54:918][610]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.30.54:918][610]LogPlayLevel: PIE: World Init took: (0.001332s)
+[2015.08.06-05.30.54:919][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.030795s)
+[2015.08.06-05.30.54:945][610]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.30.54:954][610]LogInit: FAudioDevice initialized.
+[2015.08.06-05.30.54:984][610]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.30.54:992][610]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.30.54
+[2015.08.06-05.30.54:992][610]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.30.54:992][610]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.30.54:993][610]LogWorld: Bringing up level for play took: 0.006802
+[2015.08.06-05.30.54:996][610]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.817
+[2015.08.06-05.31.46:784][940]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000376BCFE0
+[2015.08.06-05.33.59:628][879]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2015.08.06-05.34.10:874][687]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.34.10:985][687]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2015.08.06-05.34.11:071][687]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.06-05.34.28:616][  7]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.34.28:818][ 21]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.34.29:608][ 63]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.34.30:452][110]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.34.31:222][149]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.34.39:238][770]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.34.41:216][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Open_blockout)
+[2015.08.06-05.34.41:957][961]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (FallingTree)
+[2015.08.06-05.34.42:200][979]Cmd: DELETE
+[2015.08.06-05.34.42:200][979]Cmd: ACTOR DELETE
+[2015.08.06-05.34.42:202][979]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2015.08.06-05.34.42:209][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-05.34.42:210][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.08.06-05.34.42:233][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047EF5440
+[2015.08.06-05.34.42:234][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047D9A7A0
+[2015.08.06-05.34.42:234][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000406B2980
+[2015.08.06-05.34.42:235][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000406B3240
+[2015.08.06-05.34.42:253][979]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.08.06-05.34.42:933][ 19]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.34.42:943][ 19]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.34.43:028][ 19]LogPlayLevel: PIE:  Blueprint regeneration took 94 ms (1 blueprints)
+[2015.08.06-05.34.43:028][ 19]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:34:43 am)
+[2015.08.06-05.34.43:028][ 19]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.34.43:056][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028021s)
+[2015.08.06-05.34.43:057][ 19]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.34.43:058][ 19]LogPlayLevel: PIE: World Init took: (0.001257s)
+[2015.08.06-05.34.43:058][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029488s)
+[2015.08.06-05.34.43:085][ 19]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.34.43:095][ 19]LogInit: FAudioDevice initialized.
+[2015.08.06-05.34.43:123][ 19]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.34.43:131][ 19]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.34.43
+[2015.08.06-05.34.43:131][ 19]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.34.43:131][ 19]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.34.43:132][ 19]LogWorld: Bringing up level for play took: 0.007076
+[2015.08.06-05.34.43:135][ 19]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.954
+[2015.08.06-05.35.00:579][393]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004A25D580
+[2015.08.06-05.35.02:202][511]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.35.02:210][511]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.35.02:296][511]LogPlayLevel: PIE:  Blueprint regeneration took 94 ms (1 blueprints)
+[2015.08.06-05.35.02:296][511]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:35:02 am)
+[2015.08.06-05.35.02:297][511]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.35.02:325][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027988s)
+[2015.08.06-05.35.02:326][511]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.35.02:326][511]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2015.08.06-05.35.02:326][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029414s)
+[2015.08.06-05.35.02:355][511]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.35.02:365][511]LogInit: FAudioDevice initialized.
+[2015.08.06-05.35.02:394][511]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.35.02:402][511]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.35.02
+[2015.08.06-05.35.02:402][511]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.35.02:402][511]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.35.02:403][511]LogWorld: Bringing up level for play took: 0.006961
+[2015.08.06-05.35.02:406][511]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.225
+[2015.08.06-05.35.18:722][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040602A20
+[2015.08.06-05.35.25:088][322]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (FallingTree2)
+[2015.08.06-05.35.49:734][313]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2015.08.06-05.35.56:448][884]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.35.56:503][884]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.35.58:380][ 38]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.36.04:963][447]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.06-05.36.07:834][588]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2015.08.06-05.36.10:066][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2015.08.06-05.36.14:902][999]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.36.20:893][435]LogRenderer: Reallocating scene render targets to support 1056x928 (Frame:172035).
+[2015.08.06-05.36.20:893][435]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.06-05.36.24:717][694]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.36.27:835][899]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.36.40:598][949]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.36.40:607][949]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.36.40:685][949]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047FAF9C0
+[2015.08.06-05.36.40:685][949]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000049DB4EA0
+[2015.08.06-05.36.40:685][949]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045A85940
+[2015.08.06-05.36.40:686][949]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045A85BC0
+[2015.08.06-05.36.40:686][949]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045D14540
+[2015.08.06-05.36.40:697][949]LogPlayLevel: PIE:  Blueprint regeneration took 98 ms (1 blueprints)
+[2015.08.06-05.36.40:697][949]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:36:40 am)
+[2015.08.06-05.36.40:698][949]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.36.40:726][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028258s)
+[2015.08.06-05.36.40:727][949]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.36.40:727][949]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2015.08.06-05.36.40:727][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029750s)
+[2015.08.06-05.36.40:756][949]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.36.40:766][949]LogInit: FAudioDevice initialized.
+[2015.08.06-05.36.40:795][949]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.36.40:803][949]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.36.40
+[2015.08.06-05.36.40:803][949]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.36.40:803][949]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.36.40:804][949]LogWorld: Bringing up level for play took: 0.007041
+[2015.08.06-05.36.40:806][949]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.625
+[2015.08.06-05.37.00:469][874]LogCharacterMovement: SheepController_C_7 is stuck and failed to move!
+[2015.08.06-05.37.00:479][875]LogCharacterMovement: SheepController_C_7 is stuck and failed to move!
+[2015.08.06-05.37.00:489][876]LogCharacterMovement: SheepController_C_7 is stuck and failed to move!
+[2015.08.06-05.37.00:500][877]LogCharacterMovement: SheepController_C_7 is stuck and failed to move!
+[2015.08.06-05.37.00:520][879]LogCharacterMovement: SheepController_C_7 is stuck and failed to move!
+[2015.08.06-05.37.05:425][359]LogCharacterMovement: SheepController_C_7 is stuck and failed to move!
+[2015.08.06-05.37.05:446][361]LogCharacterMovement: SheepController_C_7 is stuck and failed to move!
+[2015.08.06-05.37.05:466][363]LogCharacterMovement: SheepController_C_7 is stuck and failed to move!
+[2015.08.06-05.37.05:477][364]LogCharacterMovement: SheepController_C_7 is stuck and failed to move!
+[2015.08.06-05.37.05:498][366]LogCharacterMovement: SheepController_C_7 is stuck and failed to move!
+[2015.08.06-05.37.06:556][461]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B63E020
+[2015.08.06-05.37.13:015][ 34]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.37.13:024][ 34]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.37.13:110][ 34]LogPlayLevel: PIE:  Blueprint regeneration took 94 ms (1 blueprints)
+[2015.08.06-05.37.13:110][ 34]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:37:13 am)
+[2015.08.06-05.37.13:110][ 34]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.37.13:139][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028052s)
+[2015.08.06-05.37.13:139][ 34]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.37.13:140][ 34]LogPlayLevel: PIE: World Init took: (0.001270s)
+[2015.08.06-05.37.13:140][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029530s)
+[2015.08.06-05.37.13:168][ 34]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.37.13:178][ 34]LogInit: FAudioDevice initialized.
+[2015.08.06-05.37.13:208][ 34]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.37.13:216][ 34]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.37.13
+[2015.08.06-05.37.13:216][ 34]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.37.13:216][ 34]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.37.13:217][ 34]LogWorld: Bringing up level for play took: 0.006995
+[2015.08.06-05.37.13:220][ 34]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 1.038
+[2015.08.06-05.37.48:839][514]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045D8C0E0
+[2015.08.06-05.37.53:842][979]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.37.54:039][979]LogSavePackage: Save=116.387245ms
+[2015.08.06-05.37.54:039][979]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/Spook_WorldDA4565B9481350352030C2AB800B71E7.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Spook/MapAndGameMode/Spook_World.umap'
+[2015.08.06-05.37.54:066][979]LogFileHelpers: Saving map 'Spook_World' took 0.219
+[2015.08.06-05.37.54:087][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test/FallingTree" FILE="../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree.uasset" SILENT=true
+[2015.08.06-05.37.54:177][979]LogSavePackage: Save=82.737015ms
+[2015.08.06-05.37.54:177][979]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/FallingTree0E912B9D48FFD6EDCAAAE399655ECEC4.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree.uasset'
+[2015.08.06-05.37.54:186][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test/FallingTree_Anim" FILE="../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree_Anim.uasset" SILENT=true
+[2015.08.06-05.37.54:192][979]LogSavePackage: Save=3.244070ms
+[2015.08.06-05.37.54:192][979]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/FallingTree_Anim7CA5314644D08D93D2A501AD46384B43.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree_Anim.uasset'
+[2015.08.06-05.39.20:463][195]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.39.20:486][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test/FallingTree" FILE="../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree.uasset" SILENT=true
+[2015.08.06-05.39.20:571][195]LogSavePackage: Save=83.064072ms
+[2015.08.06-05.39.20:571][195]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/FallingTree411DC10B4FC35468FDF332AA86B7F883.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree.uasset'
+[2015.08.06-05.39.21:480][265]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.39.21:489][265]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.39.21:575][265]LogPlayLevel: PIE:  Blueprint regeneration took 94 ms (1 blueprints)
+[2015.08.06-05.39.21:575][265]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:39:21 am)
+[2015.08.06-05.39.21:576][265]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.39.21:604][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028085s)
+[2015.08.06-05.39.21:604][265]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.39.21:605][265]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2015.08.06-05.39.21:605][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029578s)
+[2015.08.06-05.39.21:633][265]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.39.21:641][265]LogInit: FAudioDevice initialized.
+[2015.08.06-05.39.21:670][265]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.39.21:677][265]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.39.21
+[2015.08.06-05.39.21:677][265]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.39.21:678][265]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.39.21:679][265]LogWorld: Bringing up level for play took: 0.007007
+[2015.08.06-05.39.21:681][265]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.501
+[2015.08.06-05.40.28:958][984]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032F2CEA0
+[2015.08.06-05.40.29:192][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Graveyard_Blockout)
+[2015.08.06-05.40.30:513][ 93]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.40.30:521][ 93]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.40.30:608][ 93]LogPlayLevel: PIE:  Blueprint regeneration took 95 ms (1 blueprints)
+[2015.08.06-05.40.30:609][ 93]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:40:30 am)
+[2015.08.06-05.40.30:609][ 93]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.40.30:638][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028521s)
+[2015.08.06-05.40.30:638][ 93]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.40.30:639][ 93]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2015.08.06-05.40.30:639][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029997s)
+[2015.08.06-05.40.30:667][ 93]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.40.30:677][ 93]LogInit: FAudioDevice initialized.
+[2015.08.06-05.40.30:708][ 93]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.40.30:715][ 93]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.40.30
+[2015.08.06-05.40.30:715][ 93]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.40.30:716][ 93]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.40.30:717][ 93]LogWorld: Bringing up level for play took: 0.007031
+[2015.08.06-05.40.30:719][ 93]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.537
+[2015.08.06-05.40.50:287][701]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045D8C400
+[2015.08.06-05.41.06:640][863]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.06:774][873]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.06:972][889]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.07:010][891]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.07:383][923]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.07:409][924]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.07:553][935]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.07:681][945]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.09:652][118]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.09:691][120]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.09:969][143]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.11:013][232]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.11:666][288]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.12:183][332]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.12:762][382]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.12:774][382]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.12:787][382]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.12:812][383]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.32:884][816]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.06-05.41.54:715][ 93]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.41.54:868][ 93]LogRenderer: Reallocating scene render targets to support 1256x936 (Frame:211783).
+[2015.08.06-05.42.09:567][ 93]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.42.47:472][154]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.42.59:540][782]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.43.00:026][804]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.43.01:692][896]LogWindows: LaunchFileInExternalEditor C:/../Users/jackson.luff/Downloads/FallingTree.fbx 
+[2015.08.06-05.43.01:709][896]LogWindows: Launch application code for C:/../Users/jackson.luff/Downloads/FallingTree.fbx : 31
+[2015.08.06-05.43.04:022][ 20]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.43.09:950][198]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.44.15:022][114]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.44.15:031][114]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.44.15:109][114]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F403600
+[2015.08.06-05.44.15:110][114]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B61D940
+[2015.08.06-05.44.15:110][114]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047FAC860
+[2015.08.06-05.44.15:121][114]LogPlayLevel: PIE:  Blueprint regeneration took 99 ms (1 blueprints)
+[2015.08.06-05.44.15:122][114]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:44:15 am)
+[2015.08.06-05.44.15:122][114]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.44.15:152][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030035s)
+[2015.08.06-05.44.15:153][114]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.44.15:154][114]LogPlayLevel: PIE: World Init took: (0.001275s)
+[2015.08.06-05.44.15:154][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.031522s)
+[2015.08.06-05.44.15:182][114]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.44.15:192][114]LogInit: FAudioDevice initialized.
+[2015.08.06-05.44.15:224][114]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.44.15:231][114]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.44.15
+[2015.08.06-05.44.15:231][114]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.44.15:232][114]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.44.15:233][114]LogWorld: Bringing up level for play took: 0.007010
+[2015.08.06-05.44.15:235][114]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 1.051
+[2015.08.06-05.44.18:537][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000051C7B560
+[2015.08.06-05.44.58:999][590]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.45.01:876][760]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: DebugSkelMeshComponent_3
+[2015.08.06-05.45.01:876][760]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2015.08.06-05.45.04:816][996]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.45.04:825][996]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.45.04:911][996]LogPlayLevel: PIE:  Blueprint regeneration took 95 ms (1 blueprints)
+[2015.08.06-05.45.04:912][996]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:45:04 am)
+[2015.08.06-05.45.04:912][996]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.45.04:940][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028182s)
+[2015.08.06-05.45.04:941][996]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.45.04:942][996]LogPlayLevel: PIE: World Init took: (0.001274s)
+[2015.08.06-05.45.04:942][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029656s)
+[2015.08.06-05.45.04:969][996]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.45.04:980][996]LogInit: FAudioDevice initialized.
+[2015.08.06-05.45.05:012][996]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.45.05:018][996]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2015.08.06-05.45.05:020][996]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.45.05
+[2015.08.06-05.45.05:020][996]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.45.05:020][996]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.45.05:021][996]LogWorld: Bringing up level for play took: 0.006903
+[2015.08.06-05.45.05:024][996]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.839
+[2015.08.06-05.45.38:890][787]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000046457880
+[2015.08.06-05.45.42:874][ 41]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.45.48:398][461]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (FallingTree2)
+[2015.08.06-05.45.55:871][879]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.45.55:909][879]LogContentBrowser: Native class hierarchy updated for 'PhAT' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.08.06-05.45.56:038][880]LogRenderer: Reallocating scene render targets to support 1336x936 (Frame:241208).
+[2015.08.06-05.46.24:303][168]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.46.31:497][733]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.46.59:327][179]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.47.00:510][245]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.47.06:036][666]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.47.23:241][280]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.47.23:249][280]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.47.23:338][280]LogPlayLevel: PIE:  Blueprint regeneration took 96 ms (1 blueprints)
+[2015.08.06-05.47.23:338][280]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:47:23 am)
+[2015.08.06-05.47.23:338][280]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.47.23:367][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028333s)
+[2015.08.06-05.47.23:367][280]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.47.23:368][280]LogPlayLevel: PIE: World Init took: (0.001239s)
+[2015.08.06-05.47.23:368][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.029776s)
+[2015.08.06-05.47.23:396][280]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.47.23:405][280]LogInit: FAudioDevice initialized.
+[2015.08.06-05.47.23:436][280]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.47.23:444][280]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.47.23
+[2015.08.06-05.47.23:444][280]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.47.23:444][280]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.47.23:445][280]LogWorld: Bringing up level for play took: 0.006969
+[2015.08.06-05.47.23:447][280]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.738
+[2015.08.06-05.47.55:414][755]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000051B16D40
+[2015.08.06-05.48.32:546][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Open_blockout)
+[2015.08.06-05.48.34:706][774]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (FallingTree2)
+[2015.08.06-05.49.22:617][510]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.49.22:625][510]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.49.22:711][510]LogPlayLevel: PIE:  Blueprint regeneration took 93 ms (1 blueprints)
+[2015.08.06-05.49.22:711][510]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:49:22 am)
+[2015.08.06-05.49.22:711][510]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.49.22:738][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026519s)
+[2015.08.06-05.49.22:739][510]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.49.22:739][510]LogPlayLevel: PIE: World Init took: (0.001343s)
+[2015.08.06-05.49.22:740][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.028094s)
+[2015.08.06-05.49.22:768][510]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.49.22:779][510]LogInit: FAudioDevice initialized.
+[2015.08.06-05.49.22:808][510]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.49.22:816][510]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.49.22
+[2015.08.06-05.49.22:816][510]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.49.22:816][510]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.49.22:817][510]LogWorld: Bringing up level for play took: 0.007027
+[2015.08.06-05.49.22:820][510]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.634
+[2015.08.06-05.50.22:105][666]LogCharacterMovement: SheepController_C_7 is stuck and failed to move!
+[2015.08.06-05.50.22:114][667]LogCharacterMovement: SheepController_C_7 is stuck and failed to move!
+[2015.08.06-05.50.22:133][669]LogCharacterMovement: SheepController_C_7 is stuck and failed to move!
+[2015.08.06-05.50.34:174][962]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000053592C00
+[2015.08.06-05.51.23:212][769]LogD3D11RHI: InitD3DDevice
+[2015.08.06-05.51.23:810][769]LogSavePackage: Save=115.356735ms
+[2015.08.06-05.51.23:810][769]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/Spook_World2C2496C04D01212C761E50BBAFBB6345.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Spook/MapAndGameMode/Spook_World.umap'
+[2015.08.06-05.51.23:839][769]LogFileHelpers: Saving map 'Spook_World' took 0.622
+[2015.08.06-05.51.23:858][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test/FallingTree" FILE="../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree.uasset" SILENT=true
+[2015.08.06-05.51.23:950][769]LogSavePackage: Save=83.254227ms
+[2015.08.06-05.51.23:950][769]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/FallingTree2FC3B0D04555E44637AE26915FAC87F5.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree.uasset'
+[2015.08.06-05.51.23:958][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Test/FallingTree_PhysicsAsset" FILE="../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree_PhysicsAsset.uasset" SILENT=true
+[2015.08.06-05.51.23:964][769]LogSavePackage: Save=2.449149ms
+[2015.08.06-05.51.23:964][769]LogSavePackage: Moving '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Saved/FallingTree_PhysicsAssetC6061AAE4C3A017FB861DD98AA898F58.tmp' to '../../../../../../Source Tree/Spook/Spook_Prototype 4.8/Content/Test/FallingTree_PhysicsAsset.uasset'
+[2015.08.06-05.51.25:569][913]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.51.25:578][913]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.51.25:667][913]LogPlayLevel: PIE:  Blueprint regeneration took 98 ms (1 blueprints)
+[2015.08.06-05.51.25:668][913]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:51:25 am)
+[2015.08.06-05.51.25:668][913]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.51.25:694][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025606s)
+[2015.08.06-05.51.25:694][913]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.51.25:695][913]LogPlayLevel: PIE: World Init took: (0.001227s)
+[2015.08.06-05.51.25:695][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.027041s)
+[2015.08.06-05.51.25:722][913]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.51.25:732][913]LogInit: FAudioDevice initialized.
+[2015.08.06-05.51.25:764][913]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.51.25:772][913]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.51.25
+[2015.08.06-05.51.25:772][913]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.51.25:772][913]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.51.25:773][913]LogWorld: Bringing up level for play took: 0.006959
+[2015.08.06-05.51.25:776][913]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.411
+[2015.08.06-05.51.48:200][316]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000534C7240
+[2015.08.06-05.51.50:681][462]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.06-05.51.54:306][699]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.51.54:314][699]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.51.54:401][699]LogPlayLevel: PIE:  Blueprint regeneration took 95 ms (1 blueprints)
+[2015.08.06-05.51.54:402][699]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:51:54 am)
+[2015.08.06-05.51.54:402][699]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.51.54:428][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025417s)
+[2015.08.06-05.51.54:428][699]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.51.54:429][699]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2015.08.06-05.51.54:429][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.026815s)
+[2015.08.06-05.51.54:455][699]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.51.54:465][699]LogInit: FAudioDevice initialized.
+[2015.08.06-05.51.54:496][699]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.51.54:503][699]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.51.54
+[2015.08.06-05.51.54:503][699]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.51.54:504][699]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.51.54:505][699]LogWorld: Bringing up level for play took: 0.007015
+[2015.08.06-05.51.54:507][699]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.32
+[2015.08.06-05.52.17:250][508]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000053572C00
+[2015.08.06-05.52.18:664][609]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-05.52.18:673][609]LogPlayLevel: [PIE] Compiling Spook_World before PIE...
+[2015.08.06-05.52.18:759][609]LogPlayLevel: PIE:  Blueprint regeneration took 95 ms (1 blueprints)
+[2015.08.06-05.52.18:759][609]PIE: New page: PIE session: Spook_World (7 Aug 2015 1:52:18 am)
+[2015.08.06-05.52.18:760][609]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.06-05.52.18:785][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025310s)
+[2015.08.06-05.52.18:786][609]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.06-05.52.18:786][609]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2015.08.06-05.52.18:787][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.026799s)
+[2015.08.06-05.52.18:813][609]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.06-05.52.18:824][609]LogInit: FAudioDevice initialized.
+[2015.08.06-05.52.18:854][609]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.06-05.52.18:862][609]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.06-15.52.18
+[2015.08.06-05.52.18:862][609]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.52.18:862][609]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.06-05.52.18:863][609]LogWorld: Bringing up level for play took: 0.006994
+[2015.08.06-05.52.18:866][609]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.679
+[2015.08.06-05.52.34:822][880]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005341B880
+[2015.08.06-05.52.38:323][109]Cmd: QUIT_EDITOR
+[2015.08.06-05.52.38:554][109]LogExit: Preparing to exit.
+[2015.08.06-05.52.39:311][109]LogExit: Editor shut down
+[2015.08.06-05.52.39:311][109]LogExit: Transaction tracking system shut down
+[2015.08.06-05.52.39:312][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F4AC540
+[2015.08.06-05.52.39:312][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018D75300
+[2015.08.06-05.52.39:313][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D7234C0
+[2015.08.06-05.52.39:314][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018D7EFC0
+[2015.08.06-05.52.39:316][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B61DB20
+[2015.08.06-05.52.39:316][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032180C20
+[2015.08.06-05.52.39:316][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000378E2B60
+[2015.08.06-05.52.39:316][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000363849A0
+[2015.08.06-05.52.39:316][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034533880
+[2015.08.06-05.52.39:316][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000042DD0E00
+[2015.08.06-05.52.39:316][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040EF2020
+[2015.08.06-05.52.39:316][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040EF1A80
+[2015.08.06-05.52.39:316][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000046456980
+[2015.08.06-05.52.39:316][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047FAD080
+[2015.08.06-05.52.39:317][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000049F42520
+[2015.08.06-05.52.39:453][109]LogExit: Object subsystem successfully closed.
+[2015.08.06-05.52.39:471][109]LogD3D11RHI: Shutdown
+[2015.08.06-05.52.39:471][109]LogD3D11RHI: CleanupD3DDevice
+[2015.08.06-05.52.39:533][109]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.08.06-05.52.39:547][109]LogModuleManager: Shutting down and abandoning module PhAT (192)
+[2015.08.06-05.52.39:547][109]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (191)
+[2015.08.06-05.52.39:547][109]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.08.06-05.52.39:547][109]LogModuleManager: Shutting down and abandoning module CrashTracker (189)
+[2015.08.06-05.52.39:547][109]LogModuleManager: Shutting down and abandoning module SceneOutliner (188)
+[2015.08.06-05.52.39:547][109]LogModuleManager: Shutting down and abandoning module SuperSearch (187)
+[2015.08.06-05.52.39:547][109]LogModuleManager: Shutting down and abandoning module WidgetCarousel (186)
+[2015.08.06-05.52.39:547][109]LogModuleManager: Shutting down and abandoning module AddContentDialog (185)
+[2015.08.06-05.52.39:547][109]LogModuleManager: Shutting down and abandoning module EditorWidgets (184)
+[2015.08.06-05.52.39:548][109]LogModuleManager: Shutting down and abandoning module CollectionManager (183)
+[2015.08.06-05.52.39:548][109]LogModuleManager: Shutting down and abandoning module FoliageEdit (182)
+[2015.08.06-05.52.39:548][109]LogModuleManager: Shutting down and abandoning module LandscapeEditor (181)
+[2015.08.06-05.52.39:548][109]LogModuleManager: Shutting down and abandoning module ActorPickerMode (180)
+[2015.08.06-05.52.39:548][109]LogModuleManager: Shutting down and abandoning module GeometryMode (179)
+[2015.08.06-05.52.39:548][109]LogModuleManager: Shutting down and abandoning module TextureAlignMode (178)
+[2015.08.06-05.52.39:548][109]LogModuleManager: Shutting down and abandoning module BspMode (177)
+[2015.08.06-05.52.39:548][109]LogModuleManager: Shutting down and abandoning module PlacementMode (176)
+[2015.08.06-05.52.39:548][109]LogModuleManager: Shutting down and abandoning module AutomationWorker (175)
+[2015.08.06-05.52.39:548][109]LogModuleManager: Shutting down and abandoning module CharacterAI (174)
+[2015.08.06-05.52.39:548][109]LogModuleManager: Shutting down and abandoning module SmartSnapping (173)
+[2015.08.06-05.52.39:548][109]LogModuleManager: Shutting down and abandoning module ViewportSnapping (172)
+[2015.08.06-05.52.39:548][109]LogModuleManager: Shutting down and abandoning module LogVisualizer (171)
+[2015.08.06-05.52.39:549][109]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (170)
+[2015.08.06-05.52.39:549][109]LogModuleManager: Shutting down and abandoning module IntroTutorials (169)
+[2015.08.06-05.52.39:549][109]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (168)
+[2015.08.06-05.52.39:549][109]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (167)
+[2015.08.06-05.52.39:549][109]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (166)
+[2015.08.06-05.52.39:549][109]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (165)
+[2015.08.06-05.52.40:098][109]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (164)
+[2015.08.06-05.52.40:098][109]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (163)
+[2015.08.06-05.52.40:098][109]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (162)
+[2015.08.06-05.52.40:098][109]LogModuleManager: Shutting down and abandoning module MergeActors (161)
+[2015.08.06-05.52.40:099][109]LogModuleManager: Shutting down and abandoning module SizeMap (160)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module TreeMap (159)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module ReferenceViewer (158)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (157)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (149)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (148)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module InputBindingEditor (147)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (146)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module SettingsEditor (145)
+[2015.08.06-05.52.40:100][109]LogModuleManager: Shutting down and abandoning module ProjectLauncher (144)
+[2015.08.06-05.52.40:101][109]LogModuleManager: Shutting down and abandoning module SessionFrontend (143)
+[2015.08.06-05.52.40:101][109]LogModuleManager: Shutting down and abandoning module ProfilerClient (142)
+[2015.08.06-05.52.40:101][109]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (141)
+[2015.08.06-05.52.40:101][109]LogModuleManager: Shutting down and abandoning module DeviceManager (140)
+[2015.08.06-05.52.40:101][109]LogModuleManager: Shutting down and abandoning module AutomationController (139)
+[2015.08.06-05.52.40:101][109]LogModuleManager: Shutting down and abandoning module AutomationWindow (138)
+[2015.08.06-05.52.40:102][109]LogModuleManager: Shutting down and abandoning module Layers (137)
+[2015.08.06-05.52.40:103][109]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (136)
+[2015.08.06-05.52.40:103][109]LogModuleManager: Shutting down and abandoning module DetailCustomizations (135)
+[2015.08.06-05.52.40:103][109]LogModuleManager: Shutting down and abandoning module PackagesDialog (134)
+[2015.08.06-05.52.40:103][109]LogModuleManager: Shutting down and abandoning module Persona (133)
+[2015.08.06-05.52.40:103][109]LogModuleManager: Shutting down and abandoning module Kismet (132)
+[2015.08.06-05.52.40:103][109]LogModuleManager: Shutting down and abandoning module GraphEditor (131)
+[2015.08.06-05.52.40:103][109]LogModuleManager: Shutting down and abandoning module ClassViewer (130)
+[2015.08.06-05.52.40:105][109]LogModuleManager: Shutting down and abandoning module Toolbox (129)
+[2015.08.06-05.52.40:105][109]LogModuleManager: Shutting down and abandoning module ModuleUI (128)
+[2015.08.06-05.52.40:106][109]LogModuleManager: Shutting down and abandoning module MovieSceneTools (127)
+[2015.08.06-05.52.40:106][109]LogModuleManager: Shutting down and abandoning module OutputLog (126)
+[2015.08.06-05.52.40:106][109]LogModuleManager: Shutting down and abandoning module GammaUI (125)
+[2015.08.06-05.52.40:106][109]LogModuleManager: Shutting down and abandoning module Documentation (124)
+[2015.08.06-05.52.40:106][109]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (123)
+[2015.08.06-05.52.40:106][109]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (122)
+[2015.08.06-05.52.40:106][109]LogModuleManager: Shutting down and abandoning module AnalyticsET (121)
+[2015.08.06-05.52.40:107][109]LogModuleManager: Shutting down and abandoning module Analytics (120)
+[2015.08.06-05.52.40:107][109]LogModuleManager: Shutting down and abandoning module AITestSuite (119)
+[2015.08.06-05.52.40:107][109]LogModuleManager: Shutting down and abandoning module GameplayDebugger (118)
+[2015.08.06-05.52.40:107][109]LogModuleManager: Shutting down and abandoning module AIModule (117)
+[2015.08.06-05.52.40:107][109]LogModuleManager: Shutting down and abandoning module ProfilerService (116)
+[2015.08.06-05.52.40:250][109]LogModuleManager: Shutting down and abandoning module TaskGraph (115)
+[2015.08.06-05.52.40:252][109]LogModuleManager: Shutting down and abandoning module SubstanceEditor (114)
+[2015.08.06-05.52.40:252][109]LogModuleManager: Shutting down and abandoning module SlateRemote (113)
+[2015.08.06-05.52.40:252][109]LogModuleManager: Shutting down and abandoning module SteamVRController (112)
+[2015.08.06-05.52.40:252][109]LogModuleManager: Shutting down and abandoning module SteamVR (111)
+[2015.08.06-05.52.40:252][109]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (110)
+[2015.08.06-05.52.40:252][109]LogModuleManager: Shutting down and abandoning module OculusRift (109)
+[2015.08.06-05.52.40:252][109]LogModuleManager: Shutting down and abandoning module LeapMotionController (108)
+[2015.08.06-05.52.40:262][109]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (107)
+[2015.08.06-05.52.40:262][109]LogModuleManager: Shutting down and abandoning module CableComponent (106)
+[2015.08.06-05.52.40:262][109]LogModuleManager: Shutting down and abandoning module MessagingDebugger (105)
+[2015.08.06-05.52.40:263][109]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (104)
+[2015.08.06-05.52.40:263][109]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (103)
+[2015.08.06-05.52.40:263][109]LogModuleManager: Shutting down and abandoning module PluginBrowser (102)
+[2015.08.06-05.52.40:263][109]LogModuleManager: Shutting down and abandoning module EpicSurvey (101)
+[2015.08.06-05.52.40:263][109]LogModuleManager: Shutting down and abandoning module DesktopPlatform (100)
+[2015.08.06-05.52.40:263][109]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (99)
+[2015.08.06-05.52.40:263][109]LogModuleManager: Shutting down and abandoning module UObjectPlugin (98)
+[2015.08.06-05.52.40:263][109]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (97)
+[2015.08.06-05.52.40:264][109]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (96)
+[2015.08.06-05.52.40:264][109]LogModuleManager: Shutting down and abandoning module SourceControl (95)
+[2015.08.06-05.52.40:264][109]LogModuleManager: Shutting down and abandoning module GitSourceControl (94)
+[2015.08.06-05.52.40:264][109]LogModuleManager: Shutting down and abandoning module BlankPlugin (93)
+[2015.08.06-05.52.40:264][109]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (92)
+[2015.08.06-05.52.40:264][109]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (91)
+[2015.08.06-05.52.40:264][109]LogModuleManager: Shutting down and abandoning module MeshPaint (90)
+[2015.08.06-05.52.40:264][109]LogModuleManager: Shutting down and abandoning module SlateReflector (89)
+[2015.08.06-05.52.40:265][109]LogModuleManager: Shutting down and abandoning module HotReload (88)
+[2015.08.06-05.52.40:265][109]LogModuleManager: Shutting down and abandoning module MainFrame (87)
+[2015.08.06-05.52.40:265][109]LogModuleManager: Shutting down and abandoning module LevelEditor (86)
+[2015.08.06-05.52.40:267][109]LogModuleManager: Shutting down and abandoning module ContentBrowser (85)
+[2015.08.06-05.52.40:268][109]LogModuleManager: Shutting down and abandoning module Paper2DEditor (84)
+[2015.08.06-05.52.40:268][109]LogModuleManager: Shutting down and abandoning module UdpMessaging (83)
+[2015.08.06-05.52.40:368][109]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (82)
+[2015.08.06-05.52.40:368][109]LogModuleManager: Shutting down and abandoning module AssetRegistry (81)
+[2015.08.06-05.52.40:494][109]LogModuleManager: Shutting down and abandoning module SubstanceCore (80)
+[2015.08.06-05.52.40:494][109]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.08.06-05.52.40:495][109]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.08.06-05.52.40:497][109]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.08.06-05.52.40:497][109]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.08.06-05.52.40:497][109]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.08.06-05.52.40:497][109]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.08.06-05.52.40:497][109]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.08.06-05.52.40:499][109]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.08.06-05.52.40:499][109]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.08.06-05.52.40:500][109]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.08.06-05.52.40:500][109]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.08.06-05.52.40:500][109]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.08.06-05.52.40:501][109]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.08.06-05.52.40:502][109]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.08.06-05.52.40:502][109]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.08.06-05.52.40:503][109]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.08.06-05.52.40:503][109]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.08.06-05.52.40:505][109]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.08.06-05.52.40:505][109]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.08.06-05.52.40:505][109]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.08.06-05.52.40:505][109]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.08.06-05.52.40:505][109]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.08.06-05.52.40:505][109]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.08.06-05.52.40:505][109]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.08.06-05.52.40:505][109]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.08.06-05.52.40:505][109]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.08.06-05.52.40:505][109]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.08.06-05.52.40:557][109]LogDerivedDataCache: Shutdown
+[2015.08.06-05.52.40:557][109]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.08.06-05.52.40:557][109]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.08.06-05.52.40:557][109]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.06-05.52.40:558][109]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.06-05.52.40:559][109]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.06-05.52.40:559][109]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.06-05.52.40:559][109]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.08.06-05.52.40:559][109]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.06-05.52.40:559][109]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.06-05.52.40:559][109]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.06-05.52.40:559][109]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.06-05.52.40:559][109]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.06-05.52.40:561][109]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.06-05.52.40:561][109]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.06-05.52.40:561][109]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.06-05.52.40:561][109]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.06-05.52.40:561][109]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.06-05.52.40:561][109]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.06-05.52.40:562][109]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.06-05.52.40:562][109]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.06-05.52.40:562][109]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.06-05.52.40:563][109]LogExit: Exiting.
+[2015.08.06-05.52.40:587][109]Log file closed, 08/06/15 15:52:40
