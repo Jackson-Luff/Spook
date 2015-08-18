@@ -1,0 +1,444 @@
+﻿[2015.08.16-07.46.03:233][  0]Log file open, 08/16/15 17:46:03
+[2015.08.16-07.46.03:233][  0]LogInit:Display: Running engine for game: Spook_Prototype
+[2015.08.16-07.46.03:233][  0]LogInit:Display: RandInit(-272369594) SRandInit(-272369594).
+[2015.08.16-07.46.03:233][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.16-07.46.03:233][  0]LogStats: Stats thread started
+[2015.08.16-07.46.03:233][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.16-07.46.03:233][  0]LogInit: API Version: 2579680
+[2015.08.16-07.46.03:233][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.16-07.46.03:233][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.16-07.46.03:233][  0]LogInit: Build Configuration: Development
+[2015.08.16-07.46.03:233][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.16-07.46.03:233][  0]LogInit: Command line:  
+[2015.08.16-07.46.03:233][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.16-07.46.03:233][  0]LogInit: Rocket: 1
+[2015.08.16-07.46.03:249][  0]LogInit: Using libcurl 7.41.0
+[2015.08.16-07.46.03:249][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.16-07.46.03:249][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.16-07.46.03:249][  0]LogInit:  - other features:
+[2015.08.16-07.46.03:249][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.16-07.46.03:249][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.16-07.46.03:249][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.16-07.46.03:249][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.16-07.46.03:249][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.16-07.46.03:249][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.16-07.46.03:249][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.16-07.46.03:249][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.16-07.46.03:249][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.16-07.46.03:249][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.16-07.46.03:264][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.16-07.46.03:264][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.16-07.46.03:280][  0]LogInit: Object subsystem initialized
+[2015.08.16-07.46.03:280][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.16-07.46.03:280][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jackson.luff/Desktop/Spook_Prototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.16-07.46.03:280][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.16-07.46.03:280][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jackson.luff/Desktop/Spook_Prototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.16-07.46.03:280][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.16-07.46.03:280][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jackson.luff/Desktop/Spook_Prototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.16-07.46.03:280][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.16-07.46.03:280][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.16-07.46.03:280][  0]LogInit: Computer: AIE-PURPLE-03
+[2015.08.16-07.46.03:280][  0]LogInit: User: jacksonluff
+[2015.08.16-07.46.03:280][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.16-07.46.03:280][  0]LogInit: High frequency timer resolution =3.323623 MHz
+[2015.08.16-07.46.03:280][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.08.16-07.46.03:280][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.16-07.46.03:280][  0]LogMemory: Process Physical Memory: 50.85 MB used, 50.85 MB peak
+[2015.08.16-07.46.03:280][  0]LogMemory: Process Virtual Memory: 26.46 MB used, 26.46 MB peak
+[2015.08.16-07.46.03:280][  0]LogMemory: Physical Memory: 3164.71 MB used, 16343.68 MB total
+[2015.08.16-07.46.03:280][  0]LogMemory: Virtual Memory: 285.71 MB used, 8388608.00 MB total
+[2015.08.16-07.46.03:296][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.16-07.46.03:491][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.16-07.46.03:785][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660 Ti (Feature Level 11_0)
+[2015.08.16-07.46.03:785][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.08.16-07.46.03:785][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.16-07.46.03:788][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.46.03:788][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.16-07.46.03:788][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.08.16-07.46.03:795][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.16-07.46.03:809][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.16-07.46.04:493][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.16-07.46.04:504][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.16-07.46.04:516][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.16-07.46.04:527][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.16-07.46.04:540][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.16-07.46.04:550][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.16-07.46.04:561][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.16-07.46.04:571][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.16-07.46.04:581][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.16-07.46.04:591][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.16-07.46.04:601][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.16-07.46.04:611][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.16-07.46.04:651][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.16-07.46.04:661][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.16-07.46.04:671][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.16-07.46.04:684][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.16-07.46.04:684][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.16-07.46.04:852][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.16-07.46.04:894][  0]LogDerivedDataCache: Loaded boot cache 0.04s 53MB C:/Users/jackson.luff/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.16-07.46.04:894][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jackson.luff/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.16-07.46.04:895][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.16-07.46.04:895][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.16-07.46.04:895][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.16-07.46.04:895][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.16-07.46.05:039][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.16-07.46.05:050][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jackson.luff/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.16-07.46.05:246][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.16-07.46.05:252][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.16-07.46.05:253][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.16-07.46.05:275][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.16-07.46.05:275][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.16-07.46.05:620][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.16-07.46.06:421][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.16-07.46.06:723][  0]SourceControl: Info Source control is disabled
+[2015.08.16-07.46.06:728][  0]SourceControl: Info Source control is disabled
+[2015.08.16-07.46.06:737][  0]SourceControl: Info Source control is disabled
+[2015.08.16-07.46.06:744][  0]SourceControl: Info Source control is disabled
+[2015.08.16-07.46.06:933][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.16-07.46.06:933][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.16-07.46.06:994][  0]LogEngine: Initializing Engine...
+[2015.08.16-07.46.06:995][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.16-07.46.06:996][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.16-07.46.07:125][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.16-07.46.07:130][  0]LogInit: XAudio2 using 'Speakers (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.16-07.46.07:150][  0]LogInit: FAudioDevice initialized.
+[2015.08.16-07.46.07:173][  0]LogDerivedDataCache: Saved boot cache 0.02s 53MB C:/Users/jackson.luff/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.16-07.46.07:177][  0]LogInit: Texture streaming: Disabled
+[2015.08.16-07.46.07:196][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.16-07.46.07:196][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.16-07.46.07:196][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 5935bf314cc2f96a3a6b41b54da9b35b|7cf267475aab4bafb7b336aedadbdf03|3742992d-4606-4afe-af30-26853548c9ac
+[2015.08.16-07.46.07:196][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.16-07.46.07:215][  0]LogInit: Transaction tracking system initialized
+[2015.08.16-07.46.07:315][  0]BlueprintLog: New page: Editor Load
+[2015.08.16-07.46.07:344][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2015.08.16-07.46.07:344][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.16-07.46.07:845][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.16-07.46.07:845][  0]LogConsoleResponse:Display: 
+[2015.08.16-07.46.07:928][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.16-07.46.08:075][  0]SourceControl: Info Source control is disabled
+[2015.08.16-07.46.08:075][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jackson.luff/Desktop/Spook_Prototype/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.16-07.46.08:075][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.08.16-07.46.08:075][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.16-07.46.08:101][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 25.755ms to complete.
+[2015.08.16-07.46.08:101][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.026
+[2015.08.16-07.46.08:204][  0]LogCollectionManager: Loaded 0 collections in 0.001527 seconds
+[2015.08.16-07.46.08:210][  0]LogContentBrowser: Native class hierarchy populated in 0.0057 seconds. Added 1792 classes and 301 folders.
+[2015.08.16-07.46.08:246][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.16-07.46.08:266][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.16-07.46.08:279][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2015.08.16-07.46.08:303][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.16-07.46.08:304][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.46.08:307][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.16-07.46.08:327][  0]LogLoad: Full Startup: 6.66 seconds (BP compile: 0.01 seconds)
+[2015.08.16-07.46.08:699][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.16-07.46.08:714][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.16-07.46.08:877][  0]LogRenderer: Reallocating scene render targets to support 1056x560 (Frame:2).
+[2015.08.16-07.46.10:335][  5]LogAssetRegistry: Asset discovery search completed in 3.0021 seconds
+[2015.08.16-07.46.27:677][ 57]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.46.34:214][685]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.46.35:589][685]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.08.16-07.46.35:608][685]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2015.08.16-07.46.35:620][685]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2015.08.16-07.46.35:635][685]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2015.08.16-07.46.35:655][685]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2015.08.16-07.46.35:668][685]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.08.16-07.46.35:683][685]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2015.08.16-07.46.35:696][685]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2015.08.16-07.46.35:707][685]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2015.08.16-07.46.35:717][685]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2015.08.16-07.46.35:728][685]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2015.08.16-07.46.35:739][685]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2015.08.16-07.46.35:754][685]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.08.16-07.46.35:858][685]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2015.08.16-07.46.35:871][685]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
+[2015.08.16-07.46.35:882][685]LogTexture:Display: Building textures: HQ_Lightmap0_37 (AutoDXT)
+[2015.08.16-07.46.35:892][685]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT)
+[2015.08.16-07.46.35:903][685]LogTexture:Display: Building textures: HQ_Lightmap0_41 (AutoDXT)
+[2015.08.16-07.46.35:914][685]LogTexture:Display: Building textures: HQ_Lightmap0_45 (AutoDXT)
+[2015.08.16-07.46.35:924][685]LogTexture:Display: Building textures: HQ_Lightmap0_46 (AutoDXT)
+[2015.08.16-07.46.35:935][685]LogTexture:Display: Building textures: HQ_Lightmap0_49 (AutoDXT)
+[2015.08.16-07.46.35:945][685]LogTexture:Display: Building textures: HQ_Lightmap0_50 (AutoDXT)
+[2015.08.16-07.46.35:956][685]LogTexture:Display: Building textures: HQ_Lightmap0_51 (AutoDXT)
+[2015.08.16-07.46.35:966][685]LogTexture:Display: Building textures: HQ_Lightmap0_52 (AutoDXT)
+[2015.08.16-07.46.35:977][685]LogTexture:Display: Building textures: HQ_Lightmap0_53 (AutoDXT)
+[2015.08.16-07.46.35:988][685]LogTexture:Display: Building textures: HQ_Lightmap0_54 (AutoDXT)
+[2015.08.16-07.46.35:998][685]LogTexture:Display: Building textures: HQ_Lightmap0_55 (AutoDXT)
+[2015.08.16-07.46.36:009][685]LogTexture:Display: Building textures: HQ_Lightmap0_56 (AutoDXT)
+[2015.08.16-07.46.36:020][685]LogTexture:Display: Building textures: HQ_Lightmap0_57 (AutoDXT)
+[2015.08.16-07.46.36:031][685]LogTexture:Display: Building textures: HQ_Lightmap0_58 (AutoDXT)
+[2015.08.16-07.46.36:042][685]LogTexture:Display: Building textures: HQ_Lightmap0_59 (AutoDXT)
+[2015.08.16-07.46.36:052][685]LogTexture:Display: Building textures: HQ_Lightmap0_60 (AutoDXT)
+[2015.08.16-07.46.36:064][685]LogTexture:Display: Building textures: HQ_Lightmap0_61 (AutoDXT)
+[2015.08.16-07.46.36:070][685]LogTexture:Display: Building textures: HQ_Lightmap0_62 (AutoDXT)
+[2015.08.16-07.46.36:082][685]LogTexture:Display: Building textures: HQ_Lightmap0_63 (AutoDXT)
+[2015.08.16-07.46.36:092][685]LogTexture:Display: Building textures: HQ_Lightmap0_64 (AutoDXT)
+[2015.08.16-07.46.36:102][685]LogTexture:Display: Building textures: HQ_Lightmap0_65 (AutoDXT)
+[2015.08.16-07.46.36:113][685]LogTexture:Display: Building textures: HQ_Lightmap0_66 (AutoDXT)
+[2015.08.16-07.46.36:124][685]LogTexture:Display: Building textures: HQ_Lightmap0_69 (AutoDXT)
+[2015.08.16-07.46.36:137][685]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.08.16-07.46.36:198][685]LogTexture:Display: Building textures: HQ_Lightmap0_70 (AutoDXT)
+[2015.08.16-07.46.36:213][685]LogTexture:Display: Building textures: HQ_Lightmap0_71 (AutoDXT)
+[2015.08.16-07.46.36:222][685]LogTexture:Display: Building textures: HQ_Lightmap0_72 (AutoDXT)
+[2015.08.16-07.46.36:231][685]LogTexture:Display: Building textures: HQ_Lightmap0_78 (AutoDXT)
+[2015.08.16-07.46.36:241][685]LogTexture:Display: Building textures: HQ_Lightmap0_79 (AutoDXT)
+[2015.08.16-07.46.36:251][685]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.08.16-07.46.36:271][685]LogTexture:Display: Building textures: HQ_Lightmap0_80 (AutoDXT)
+[2015.08.16-07.46.36:285][685]LogTexture:Display: Building textures: HQ_Lightmap0_81 (AutoDXT)
+[2015.08.16-07.46.36:297][685]LogTexture:Display: Building textures: HQ_Lightmap0_82 (AutoDXT)
+[2015.08.16-07.46.36:299][685]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2015.08.16-07.46.36:335][685]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2015.08.16-07.46.36:396][685]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2015.08.16-07.46.36:406][685]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2015.08.16-07.46.36:441][685]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2015.08.16-07.46.36:455][685]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2015.08.16-07.46.36:467][685]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2015.08.16-07.46.36:481][685]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.08.16-07.46.36:526][685]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.08.16-07.46.36:615][685]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.08.16-07.46.36:642][685]LogTexture:Display: Building textures: HQ_Lightmap1_67 (AutoDXT)
+[2015.08.16-07.46.36:653][685]LogTexture:Display: Building textures: HQ_Lightmap1_68 (AutoDXT)
+[2015.08.16-07.46.36:664][685]LogTexture:Display: Building textures: HQ_Lightmap1_73 (AutoDXT)
+[2015.08.16-07.46.36:673][685]LogTexture:Display: Building textures: HQ_Lightmap1_74 (AutoDXT)
+[2015.08.16-07.46.36:685][685]LogTexture:Display: Building textures: HQ_Lightmap1_75 (AutoDXT)
+[2015.08.16-07.46.36:696][685]LogTexture:Display: Building textures: HQ_Lightmap1_76 (AutoDXT)
+[2015.08.16-07.46.36:707][685]LogTexture:Display: Building textures: HQ_Lightmap1_77 (AutoDXT)
+[2015.08.16-07.46.36:719][685]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.08.16-07.46.36:733][685]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2015.08.16-07.46.36:744][685]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2015.08.16-07.46.36:755][685]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2015.08.16-07.46.36:766][685]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2015.08.16-07.46.36:782][685]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2015.08.16-07.46.36:791][685]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.08.16-07.46.36:800][685]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2015.08.16-07.46.36:811][685]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2015.08.16-07.46.36:821][685]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2015.08.16-07.46.36:830][685]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2015.08.16-07.46.36:836][685]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2015.08.16-07.46.36:847][685]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2015.08.16-07.46.36:862][685]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.08.16-07.46.36:956][685]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2015.08.16-07.46.36:970][685]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
+[2015.08.16-07.46.36:975][685]LogTexture:Display: Building textures: LQ_Lightmap_0_37 (DXT1)
+[2015.08.16-07.46.36:986][685]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1)
+[2015.08.16-07.46.36:996][685]LogTexture:Display: Building textures: LQ_Lightmap_0_41 (DXT1)
+[2015.08.16-07.46.37:006][685]LogTexture:Display: Building textures: LQ_Lightmap_0_45 (DXT1)
+[2015.08.16-07.46.37:015][685]LogTexture:Display: Building textures: LQ_Lightmap_0_46 (DXT1)
+[2015.08.16-07.46.37:022][685]LogTexture:Display: Building textures: LQ_Lightmap_0_49 (DXT1)
+[2015.08.16-07.46.37:032][685]LogTexture:Display: Building textures: LQ_Lightmap_0_50 (DXT1)
+[2015.08.16-07.46.37:042][685]LogTexture:Display: Building textures: LQ_Lightmap_0_51 (DXT1)
+[2015.08.16-07.46.37:053][685]LogTexture:Display: Building textures: LQ_Lightmap_0_52 (DXT1)
+[2015.08.16-07.46.37:061][685]LogTexture:Display: Building textures: LQ_Lightmap_0_53 (DXT1)
+[2015.08.16-07.46.37:070][685]LogTexture:Display: Building textures: LQ_Lightmap_0_54 (DXT1)
+[2015.08.16-07.46.37:081][685]LogTexture:Display: Building textures: LQ_Lightmap_0_55 (DXT1)
+[2015.08.16-07.46.37:090][685]LogTexture:Display: Building textures: LQ_Lightmap_0_56 (DXT1)
+[2015.08.16-07.46.37:099][685]LogTexture:Display: Building textures: LQ_Lightmap_0_57 (DXT1)
+[2015.08.16-07.46.37:109][685]LogTexture:Display: Building textures: LQ_Lightmap_0_58 (DXT1)
+[2015.08.16-07.46.37:120][685]LogTexture:Display: Building textures: LQ_Lightmap_0_59 (DXT1)
+[2015.08.16-07.46.37:130][685]LogTexture:Display: Building textures: LQ_Lightmap_0_60 (DXT1)
+[2015.08.16-07.46.37:141][685]LogTexture:Display: Building textures: LQ_Lightmap_0_61 (DXT1)
+[2015.08.16-07.46.37:152][685]LogTexture:Display: Building textures: LQ_Lightmap_0_62 (DXT1)
+[2015.08.16-07.46.37:162][685]LogTexture:Display: Building textures: LQ_Lightmap_0_63 (DXT1)
+[2015.08.16-07.46.37:172][685]LogTexture:Display: Building textures: LQ_Lightmap_0_64 (DXT1)
+[2015.08.16-07.46.37:182][685]LogTexture:Display: Building textures: LQ_Lightmap_0_65 (DXT1)
+[2015.08.16-07.46.37:192][685]LogTexture:Display: Building textures: LQ_Lightmap_0_66 (DXT1)
+[2015.08.16-07.46.37:200][685]LogTexture:Display: Building textures: LQ_Lightmap_0_69 (DXT1)
+[2015.08.16-07.46.37:211][685]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.08.16-07.46.37:264][685]LogTexture:Display: Building textures: LQ_Lightmap_0_70 (DXT1)
+[2015.08.16-07.46.37:274][685]LogTexture:Display: Building textures: LQ_Lightmap_0_71 (DXT1)
+[2015.08.16-07.46.37:280][685]LogTexture:Display: Building textures: LQ_Lightmap_0_72 (DXT1)
+[2015.08.16-07.46.37:287][685]LogTexture:Display: Building textures: LQ_Lightmap_0_78 (DXT1)
+[2015.08.16-07.46.37:294][685]LogTexture:Display: Building textures: LQ_Lightmap_0_79 (DXT1)
+[2015.08.16-07.46.37:302][685]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.08.16-07.46.37:315][685]LogTexture:Display: Building textures: LQ_Lightmap_0_80 (DXT1)
+[2015.08.16-07.46.37:328][685]LogTexture:Display: Building textures: LQ_Lightmap_0_81 (DXT1)
+[2015.08.16-07.46.37:334][685]LogTexture:Display: Building textures: LQ_Lightmap_0_82 (DXT1)
+[2015.08.16-07.46.37:339][685]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2015.08.16-07.46.37:372][685]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2015.08.16-07.46.37:422][685]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2015.08.16-07.46.37:430][685]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2015.08.16-07.46.37:449][685]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2015.08.16-07.46.37:461][685]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2015.08.16-07.46.37:469][685]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2015.08.16-07.46.37:478][685]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.08.16-07.46.37:513][685]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.08.16-07.46.37:597][685]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.08.16-07.46.37:611][685]LogTexture:Display: Building textures: LQ_Lightmap_1_67 (DXT1)
+[2015.08.16-07.46.37:620][685]LogTexture:Display: Building textures: LQ_Lightmap_1_68 (DXT1)
+[2015.08.16-07.46.37:628][685]LogTexture:Display: Building textures: LQ_Lightmap_1_73 (DXT1)
+[2015.08.16-07.46.37:638][685]LogTexture:Display: Building textures: LQ_Lightmap_1_74 (DXT1)
+[2015.08.16-07.46.37:645][685]LogTexture:Display: Building textures: LQ_Lightmap_1_75 (DXT1)
+[2015.08.16-07.46.37:655][685]LogTexture:Display: Building textures: LQ_Lightmap_1_76 (DXT1)
+[2015.08.16-07.46.37:663][685]LogTexture:Display: Building textures: LQ_Lightmap_1_77 (DXT1)
+[2015.08.16-07.46.37:671][685]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.08.16-07.46.37:681][685]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT)
+[2015.08.16-07.46.37:692][685]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT)
+[2015.08.16-07.46.37:699][685]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT)
+[2015.08.16-07.46.37:711][685]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT)
+[2015.08.16-07.46.37:723][685]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT)
+[2015.08.16-07.46.37:732][685]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2015.08.16-07.46.37:745][685]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT)
+[2015.08.16-07.46.37:752][685]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT)
+[2015.08.16-07.46.37:759][685]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT)
+[2015.08.16-07.46.37:766][685]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT)
+[2015.08.16-07.46.37:773][685]LogTexture:Display: Building textures: SkyOcclusion0_28 (AutoDXT)
+[2015.08.16-07.46.37:780][685]LogTexture:Display: Building textures: SkyOcclusion0_29 (AutoDXT)
+[2015.08.16-07.46.37:789][685]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2015.08.16-07.46.37:858][685]LogTexture:Display: Building textures: SkyOcclusion0_30 (AutoDXT)
+[2015.08.16-07.46.37:863][685]LogTexture:Display: Building textures: SkyOcclusion0_33 (AutoDXT)
+[2015.08.16-07.46.37:870][685]LogTexture:Display: Building textures: SkyOcclusion0_37 (AutoDXT)
+[2015.08.16-07.46.37:877][685]LogTexture:Display: Building textures: SkyOcclusion0_38 (AutoDXT)
+[2015.08.16-07.46.37:881][685]LogTexture:Display: Building textures: SkyOcclusion0_41 (AutoDXT)
+[2015.08.16-07.46.37:889][685]LogTexture:Display: Building textures: SkyOcclusion0_45 (AutoDXT)
+[2015.08.16-07.46.37:895][685]LogTexture:Display: Building textures: SkyOcclusion0_46 (AutoDXT)
+[2015.08.16-07.46.37:901][685]LogTexture:Display: Building textures: SkyOcclusion0_49 (AutoDXT)
+[2015.08.16-07.46.37:908][685]LogTexture:Display: Building textures: SkyOcclusion0_50 (AutoDXT)
+[2015.08.16-07.46.37:915][685]LogTexture:Display: Building textures: SkyOcclusion0_51 (AutoDXT)
+[2015.08.16-07.46.37:922][685]LogTexture:Display: Building textures: SkyOcclusion0_52 (AutoDXT)
+[2015.08.16-07.46.37:929][685]LogTexture:Display: Building textures: SkyOcclusion0_53 (AutoDXT)
+[2015.08.16-07.46.37:935][685]LogTexture:Display: Building textures: SkyOcclusion0_54 (AutoDXT)
+[2015.08.16-07.46.37:938][685]LogTexture:Display: Building textures: SkyOcclusion0_55 (AutoDXT)
+[2015.08.16-07.46.37:944][685]LogTexture:Display: Building textures: SkyOcclusion0_56 (AutoDXT)
+[2015.08.16-07.46.37:949][685]LogTexture:Display: Building textures: SkyOcclusion0_57 (AutoDXT)
+[2015.08.16-07.46.37:954][685]LogTexture:Display: Building textures: SkyOcclusion0_58 (AutoDXT)
+[2015.08.16-07.46.37:959][685]LogTexture:Display: Building textures: SkyOcclusion0_59 (AutoDXT)
+[2015.08.16-07.46.37:963][685]LogTexture:Display: Building textures: SkyOcclusion0_60 (AutoDXT)
+[2015.08.16-07.46.37:966][685]LogTexture:Display: Building textures: SkyOcclusion0_61 (AutoDXT)
+[2015.08.16-07.46.37:970][685]LogTexture:Display: Building textures: SkyOcclusion0_62 (AutoDXT)
+[2015.08.16-07.46.37:975][685]LogTexture:Display: Building textures: SkyOcclusion0_63 (AutoDXT)
+[2015.08.16-07.46.37:982][685]LogTexture:Display: Building textures: SkyOcclusion0_64 (AutoDXT)
+[2015.08.16-07.46.37:989][685]LogTexture:Display: Building textures: SkyOcclusion0_65 (AutoDXT)
+[2015.08.16-07.46.37:996][685]LogTexture:Display: Building textures: SkyOcclusion0_66 (AutoDXT)
+[2015.08.16-07.46.38:002][685]LogTexture:Display: Building textures: SkyOcclusion0_69 (AutoDXT)
+[2015.08.16-07.46.38:008][685]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2015.08.16-07.46.38:043][685]LogTexture:Display: Building textures: SkyOcclusion0_70 (AutoDXT)
+[2015.08.16-07.46.38:050][685]LogTexture:Display: Building textures: SkyOcclusion0_71 (AutoDXT)
+[2015.08.16-07.46.38:057][685]LogTexture:Display: Building textures: SkyOcclusion0_72 (AutoDXT)
+[2015.08.16-07.46.38:065][685]LogTexture:Display: Building textures: SkyOcclusion0_78 (AutoDXT)
+[2015.08.16-07.46.38:072][685]LogTexture:Display: Building textures: SkyOcclusion0_79 (AutoDXT)
+[2015.08.16-07.46.38:079][685]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2015.08.16-07.46.38:092][685]LogTexture:Display: Building textures: SkyOcclusion0_80 (AutoDXT)
+[2015.08.16-07.46.38:100][685]LogTexture:Display: Building textures: SkyOcclusion0_81 (AutoDXT)
+[2015.08.16-07.46.38:110][685]LogTexture:Display: Building textures: SkyOcclusion0_82 (AutoDXT)
+[2015.08.16-07.46.38:112][685]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT)
+[2015.08.16-07.46.38:134][685]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT)
+[2015.08.16-07.46.38:166][685]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT)
+[2015.08.16-07.46.38:171][685]LogTexture:Display: Building textures: SkyOcclusion1_18 (AutoDXT)
+[2015.08.16-07.46.38:192][685]LogTexture:Display: Building textures: SkyOcclusion1_19 (AutoDXT)
+[2015.08.16-07.46.38:199][685]LogTexture:Display: Building textures: SkyOcclusion1_26 (AutoDXT)
+[2015.08.16-07.46.38:206][685]LogTexture:Display: Building textures: SkyOcclusion1_27 (AutoDXT)
+[2015.08.16-07.46.38:214][685]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.08.16-07.46.38:242][685]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2015.08.16-07.46.38:301][685]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2015.08.16-07.46.38:317][685]LogTexture:Display: Building textures: SkyOcclusion1_67 (AutoDXT)
+[2015.08.16-07.46.38:324][685]LogTexture:Display: Building textures: SkyOcclusion1_68 (AutoDXT)
+[2015.08.16-07.46.38:329][685]LogTexture:Display: Building textures: SkyOcclusion1_73 (AutoDXT)
+[2015.08.16-07.46.38:336][685]LogTexture:Display: Building textures: SkyOcclusion1_74 (AutoDXT)
+[2015.08.16-07.46.38:344][685]LogTexture:Display: Building textures: SkyOcclusion1_75 (AutoDXT)
+[2015.08.16-07.46.38:351][685]LogTexture:Display: Building textures: SkyOcclusion1_76 (AutoDXT)
+[2015.08.16-07.46.38:359][685]LogTexture:Display: Building textures: SkyOcclusion1_77 (AutoDXT)
+[2015.08.16-07.46.38:366][685]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT)
+[2015.08.16-07.46.38:388][685]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.16-07.46.38:516][685]Cmd: MAP LOAD FILE="../../../../../../Users/jackson.luff/Desktop/Spook_Prototype/Content/Spook/MapAndGameMode/Spook_World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.16-07.46.38:516][685]LightingResults: New page: Lighting Build
+[2015.08.16-07.46.38:527][685]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
+[2015.08.16-07.46.38:543][685]LoadErrors: New page: Loading map: Spook_World.umap
+[2015.08.16-07.46.38:543][685]MapCheck: New page: Map Check
+[2015.08.16-07.46.38:543][685]LightingResults: New page: Lighting Build
+[2015.08.16-07.46.38:550][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014CC5300
+[2015.08.16-07.46.38:863][685]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.16-07.46.38:887][685]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.08.16-07.46.38:890][685]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.16-07.46.39:058][685]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.16-07.46.39:096][685]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.882ms to complete.
+[2015.08.16-07.46.39:096][685]LogFileHelpers: Loading map 'Spook_World' took 0.581
+[2015.08.16-07.46.39:305][686]Cmd: UpdateLandscapeEditorData -warnings
+[2015.08.16-07.46.39:306][686]Cmd: UpdateLandscapeEditorData
+[2015.08.16-07.46.43:883][214]Cmd: DELETE
+[2015.08.16-07.46.43:883][214]Cmd: ACTOR DELETE
+[2015.08.16-07.46.43:890][214]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.46.45:012][214]LogEditorActor: Deleted Actor: SheepController_C
+[2015.08.16-07.46.45:060][214]LogEditorActor: Deleted 1 Actors (1.177 secs)
+[2015.08.16-07.46.48:515][620]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.46.55:411][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2015.08.16-07.46.56:213][527]Cmd: DELETE
+[2015.08.16-07.46.56:213][527]Cmd: ACTOR DELETE
+[2015.08.16-07.46.56:219][527]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.46.57:280][527]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.16-07.46.57:287][527]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.46.57:958][527]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.16-07.46.57:967][527]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.46.58:358][527]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.16-07.46.58:366][527]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.46.58:758][527]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.16-07.46.58:774][527]LogEditorActor: Deleted 4 Actors (2.561 secs)
+[2015.08.16-07.47.03:190][ 46]LogEditorViewport: Clicking on Actor (LMB): TEST_BoarController_C (TEST_BoarController)
+[2015.08.16-07.47.04:543][195]Cmd: DELETE
+[2015.08.16-07.47.04:543][195]Cmd: ACTOR DELETE
+[2015.08.16-07.47.04:569][195]LogEditorActor: Deleted Actor: TEST_BoarController_C
+[2015.08.16-07.47.04:605][195]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2015.08.16-07.47.05:824][341]LogEditorViewport: Clicking on Actor (LMB): TriggerSphere (SheepTrigger)
+[2015.08.16-07.47.05:969][355]Cmd: DELETE
+[2015.08.16-07.47.05:969][355]Cmd: ACTOR DELETE
+[2015.08.16-07.47.05:976][355]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.47.07:031][355]LogEditorActor: Deleted Actor: TriggerSphere
+[2015.08.16-07.47.07:045][355]LogEditorActor: Deleted 1 Actors (1.076 secs)
+[2015.08.16-07.47.32:161][354]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.08.16-07.47.36:890][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2015.08.16-07.47.36:891][892]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2015.08.16-07.49.41:659][695]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.49.43:009][856]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2015.08.16-07.49.43:010][856]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2015.08.16-07.49.43:010][856]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2015.08.16-07.49.43:010][856]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
+[2015.08.16-07.49.43:010][856]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2015.08.16-07.49.43:010][856]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2015.08.16-07.49.43:010][856]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2015.08.16-07.49.43:010][856]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
+[2015.08.16-07.49.43:017][856]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.49.43:513][912]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.49.43:924][956]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.49.43:939][956]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.49.43:967][956]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.16-07.49.44:046][956]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.16-07.50.29:346][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.16-07.50.29:346][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.08.16-07.50.29:347][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.08.16-07.50.29:386][761]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.50.32:136][761]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.50.32:623][761]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E2DF2E0
+[2015.08.16-07.50.35:942][125]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.50.43:665][622]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.50.44:798][622]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.50.45:950][622]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.50.46:010][622]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_SheepController_C_0' or package '/Engine/Transient'.
+[2015.08.16-07.50.46:010][622]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_SheepController_C_1' or package '/Engine/Transient'.
+[2015.08.16-07.50.46:010][622]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_SheepController_C_113' or package '/Engine/Transient'.
+[2015.08.16-07.50.46:010][622]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SheepController_C_112' or package '/Engine/Transient'.
+[2015.08.16-07.50.47:144][721]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.50.49:771][ 31]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.50.51:768][267]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.50.52:531][358]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.16-07.50.52:532][358]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.08.16-07.50.52:562][358]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.50.54:152][358]LogD3D11RHI: InitD3DDevice
+[2015.08.16-07.50.54:277][358]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_FrankController_C_115' or package '/Engine/Transient'.
+[2015.08.16-07.50.54:277][358]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2015.08.16-07.50.54:279][358]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Anim_King_Model_C_2' or package '/Engine/Transient'.
+[2015.08.16-07.50.54:280][358]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Anim_King_Model_C_3' or package '/Engine/Transient'.
+[2015.08.16-07.50.54:280][358]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_Anim_King_Model_C_3' or package '/Engine/Transient'.
+[2015.08.16-07.50.54:280][358]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_Anim_King_Model' or package '/Engine/Transient'.
+[2015.08.16-07.50.54:280][358]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_Anim_King_Model_C_2' or package '/Engine/Transient'.
+[2015.08.16-07.50.54:283][358]LogD3D11RHI:Error: Direct3DDevice->CreateBuffer(&Desc,pInitData,VertexBufferResource.GetInitReference()) failed 
+ at D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11VertexBuffer.cpp:75 
+ with error E_INVALIDARG
+[2015.08.16-07.50.54:284][358]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.08.16-07.50.54:284][358]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FrankController_C_4' or package '/Engine/Transient'.
+[2015.08.16-07.50.54:284][358]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FrankController_C_5' or package '/Engine/Transient'.
+[2015.08.16-07.50.54:284][358]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2015.08.16-07.50.54:285][358]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_FrankController_C_114' or package '/Engine/Transient'.
+[2015.08.16-07.50.54:285][358]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_SKEL_Anim_King_Model_C_11' or package '/Engine/Transient'.
+[2015.08.16-07.50.54:285][358]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Anim_King_Model_C_11' or package '/Engine/Transient'.
+[2015.08.16-07.50.54:285][358]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_Anim_King_Model_C_10' or package '/Engine/Transient'.
+[2015.08.16-07.50.54:285][358]LogObjectTools:Warning: ForceReplaceReferences replaced 

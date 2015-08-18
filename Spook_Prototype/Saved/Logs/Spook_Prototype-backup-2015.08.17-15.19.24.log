@@ -1,0 +1,1888 @@
+﻿[2015.08.17-04.47.01:777][  0]Log file open, 08/17/15 14:47:01
+[2015.08.17-04.47.01:777][  0]LogInit:Display: Running engine for game: Spook_Prototype
+[2015.08.17-04.47.01:777][  0]LogInit:Display: RandInit(-10198109) SRandInit(-10198108).
+[2015.08.17-04.47.01:777][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.17-04.47.01:777][  0]LogStats: Stats thread started
+[2015.08.17-04.47.01:777][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.17-04.47.01:777][  0]LogInit: API Version: 2579680
+[2015.08.17-04.47.01:777][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.17-04.47.01:777][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.17-04.47.01:777][  0]LogInit: Build Configuration: Development
+[2015.08.17-04.47.01:777][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.17-04.47.01:777][  0]LogInit: Command line: 
+[2015.08.17-04.47.01:777][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.17-04.47.01:777][  0]LogInit: Rocket: 1
+[2015.08.17-04.47.01:788][  0]LogInit: Using libcurl 7.41.0
+[2015.08.17-04.47.01:788][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.17-04.47.01:788][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.17-04.47.01:788][  0]LogInit:  - other features:
+[2015.08.17-04.47.01:788][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.17-04.47.01:788][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.17-04.47.01:788][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.17-04.47.01:788][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.17-04.47.01:788][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.17-04.47.01:788][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.17-04.47.01:788][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.17-04.47.01:788][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.17-04.47.01:788][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.17-04.47.01:788][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.17-04.47.01:797][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.17-04.47.01:807][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.17-04.47.01:812][  0]LogInit: Object subsystem initialized
+[2015.08.17-04.47.01:813][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.17-04.47.01:813][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.17-04.47.01:813][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.17-04.47.01:813][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.17-04.47.01:813][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.17-04.47.01:813][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.17-04.47.01:813][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.17-04.47.01:813][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.17-04.47.01:820][  0]LogInit: Computer: FCAA148BAB7C
+[2015.08.17-04.47.01:820][  0]LogInit: User: jacksonluff
+[2015.08.17-04.47.01:820][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.17-04.47.01:820][  0]LogInit: High frequency timer resolution =3.515664 MHz
+[2015.08.17-04.47.01:820][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2015.08.17-04.47.01:821][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.17-04.47.01:821][  0]LogMemory: Process Physical Memory: 50.80 MB used, 50.80 MB peak
+[2015.08.17-04.47.01:821][  0]LogMemory: Process Virtual Memory: 23.29 MB used, 24.13 MB peak
+[2015.08.17-04.47.01:821][  0]LogMemory: Physical Memory: 4972.88 MB used, 32631.33 MB total
+[2015.08.17-04.47.01:821][  0]LogMemory: Virtual Memory: 282.72 MB used, 8388608.00 MB total
+[2015.08.17-04.47.01:848][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.17-04.47.02:028][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.17-04.47.02:409][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.08.17-04.47.02:409][  0]LogD3D11RHI: Adapter has 4009MB of dedicated video memory, 0MB of dedicated system memory, and 16059MB of shared system memory, 2 output[s]
+[2015.08.17-04.47.02:409][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.17-04.47.02:412][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.47.02:412][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.17-04.47.02:412][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.08.17-04.47.02:418][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.17-04.47.02:431][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.17-04.47.03:069][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.17-04.47.03:080][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.17-04.47.03:090][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.17-04.47.03:101][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.17-04.47.03:112][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.17-04.47.03:121][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.17-04.47.03:129][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.17-04.47.03:138][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.17-04.47.03:147][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.17-04.47.03:156][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.17-04.47.03:165][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.17-04.47.03:174][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.17-04.47.03:210][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.17-04.47.03:218][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.17-04.47.03:228][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.17-04.47.03:239][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.17-04.47.03:239][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.17-04.47.03:387][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.17-04.47.03:433][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/jackson.luff/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.17-04.47.03:433][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jackson.luff/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.17-04.47.03:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.17-04.47.03:433][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.17-04.47.03:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.17-04.47.03:433][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.17-04.47.03:562][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.17-04.47.03:573][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jackson.luff/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.17-04.47.03:719][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.17-04.47.03:725][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.17-04.47.03:725][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.17-04.47.03:745][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.17-04.47.03:745][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.17-04.47.04:080][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.17-04.47.04:774][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.17-04.47.05:051][  0]SourceControl: Info Source control is disabled
+[2015.08.17-04.47.05:052][  0]SourceControl: Info Source control is disabled
+[2015.08.17-04.47.05:060][  0]SourceControl: Info Source control is disabled
+[2015.08.17-04.47.05:067][  0]SourceControl: Info Source control is disabled
+[2015.08.17-04.47.05:218][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.17-04.47.05:218][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.17-04.47.05:275][  0]LogEngine: Initializing Engine...
+[2015.08.17-04.47.05:277][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.17-04.47.05:278][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.17-04.47.05:385][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.17-04.47.05:389][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2015.08.17-04.47.05:396][  0]LogInit: FAudioDevice initialized.
+[2015.08.17-04.47.05:419][  0]LogDerivedDataCache: Saved boot cache 0.02s 53MB C:/Users/jackson.luff/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.17-04.47.05:423][  0]LogInit: Texture streaming: Disabled
+[2015.08.17-04.47.05:440][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.17-04.47.05:440][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.17-04.47.05:440][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 1048279d4b8c56ae617f1e86260abbe7||db701714-62e2-4b5b-8d82-53200fddd665
+[2015.08.17-04.47.05:440][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.17-04.47.05:456][  0]LogInit: Transaction tracking system initialized
+[2015.08.17-04.47.05:545][  0]BlueprintLog: New page: Editor Load
+[2015.08.17-04.47.05:571][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2015.08.17-04.47.05:571][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.17-04.47.05:995][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.17-04.47.05:995][  0]LogConsoleResponse:Display: 
+[2015.08.17-04.47.06:076][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.17-04.47.06:200][  0]SourceControl: Info Source control is disabled
+[2015.08.17-04.47.06:200][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.17-04.47.06:200][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.08.17-04.47.06:200][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.17-04.47.06:222][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 21.979ms to complete.
+[2015.08.17-04.47.06:222][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.022
+[2015.08.17-04.47.06:319][  0]LogCollectionManager: Loaded 0 collections in 0.001453 seconds
+[2015.08.17-04.47.06:325][  0]LogContentBrowser: Native class hierarchy populated in 0.0050 seconds. Added 1792 classes and 301 folders.
+[2015.08.17-04.47.06:373][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.08.17-04.47.06:438][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.17-04.47.06:448][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2015.08.17-04.47.06:473][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.17-04.47.06:474][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.47.06:489][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.47.06:517][  0]LogLoad: Full Startup: 5.78 seconds (BP compile: 0.01 seconds)
+[2015.08.17-04.47.06:578][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.17-04.47.06:595][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.17-04.47.06:740][  0]LogRenderer: Reallocating scene render targets to support 1208x600 (Frame:2).
+[2015.08.17-04.47.06:889][  4]LogAssetRegistry: Asset discovery search completed in 1.3283 seconds
+[2015.08.17-04.47.18:440][266]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.47.21:923][672]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.47.22:013][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:013][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/Boar_Model_Jump_Fall.uasset.
+[2015.08.17-04.47.22:013][672]LoadErrors:Error: Error /Game/Spook/Characters/Boar/Resources/Animations/Boar_Model_Jump_Fall : Can't find file for asset. /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton
+[2015.08.17-04.47.22:013][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:013][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/Boar_Model_Jump_Fall.uasset.
+[2015.08.17-04.47.22:017][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:017][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/Boar_Model_Jump_Launch.uasset.
+[2015.08.17-04.47.22:017][672]LoadErrors:Error: Error /Game/Spook/Characters/Boar/Resources/Animations/Boar_Model_Jump_Launch : Can't find file for asset. /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton
+[2015.08.17-04.47.22:017][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:017][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/Boar_Model_Jump_Launch.uasset.
+[2015.08.17-04.47.22:021][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:021][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/Boar_Model_Idle.uasset.
+[2015.08.17-04.47.22:022][672]LoadErrors:Error: Error /Game/Spook/Characters/Boar/Resources/Animations/Boar_Model_Idle : Can't find file for asset. /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton
+[2015.08.17-04.47.22:022][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:022][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/Boar_Model_Idle.uasset.
+[2015.08.17-04.47.22:024][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:024][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/Boar_Model_Run.uasset.
+[2015.08.17-04.47.22:024][672]LoadErrors:Error: Error /Game/Spook/Characters/Boar/Resources/Animations/Boar_Model_Run : Can't find file for asset. /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton
+[2015.08.17-04.47.22:024][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:024][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/Boar_Model_Run.uasset.
+[2015.08.17-04.47.22:025][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:025][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/BlendSpace_Boar.uasset.
+[2015.08.17-04.47.22:025][672]LoadErrors:Error: Error /Game/Spook/Characters/Boar/Resources/Animations/BlendSpace_Boar : Can't find file for asset. /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton
+[2015.08.17-04.47.22:025][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:025][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/BlendSpace_Boar.uasset.
+[2015.08.17-04.47.22:083][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:083][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/AnimBP_Boar.uasset.
+[2015.08.17-04.47.22:083][672]LoadErrors:Error: Error /Game/Spook/Characters/Boar/Resources/Animations/AnimBP_Boar : Can't find file for asset. /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton
+[2015.08.17-04.47.22:083][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:083][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/AnimBP_Boar.uasset.
+[2015.08.17-04.47.22:085][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:085][672]LoadErrors: Info Failed to load /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton.Boar_Model_Skeleton Referenced by AnimBP_Boar_C
+[2015.08.17-04.47.22:085][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/BoarController.uasset.
+[2015.08.17-04.47.22:085][672]LoadErrors:Error: Error /Game/Spook/Characters/Boar/BoarController : Can't find file for asset. /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton
+[2015.08.17-04.47.22:087][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:087][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/BoarController.uasset.
+[2015.08.17-04.47.22:087][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:087][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/BoarController.uasset.
+[2015.08.17-04.47.22:087][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:087][672]LoadErrors: Info Failed to load /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton.Boar_Model_Skeleton Referenced by AnimBP_Boar
+[2015.08.17-04.47.22:087][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/BoarController.uasset.
+[2015.08.17-04.47.22:114][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:115][672]LoadErrors: Info Failed to load /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton.Boar_Model_Skeleton Referenced by BlendSpace_Boar
+[2015.08.17-04.47.22:115][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/BoarController.uasset.
+[2015.08.17-04.47.22:115][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:116][672]LoadErrors: Info Failed to load /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton.Boar_Model_Skeleton Referenced by Boar_Model_Jump_Launch
+[2015.08.17-04.47.22:116][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/BoarController.uasset.
+[2015.08.17-04.47.22:116][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.22:116][672]LoadErrors: Info Failed to load /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton.Boar_Model_Skeleton Referenced by Boar_Model_Jump_Fall
+[2015.08.17-04.47.22:116][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading ../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/BoarController.uasset.
+[2015.08.17-04.47.23:197][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.23:197][672]LoadErrors: Info Failed to load /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton.Boar_Model_Skeleton Referenced by Boar_Model_Idle
+[2015.08.17-04.47.23:197][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading NULL.
+[2015.08.17-04.47.23:197][672]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.47.23:197][672]LoadErrors: Info Failed to load /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton.Boar_Model_Skeleton Referenced by Boar_Model_Run
+[2015.08.17-04.47.23:198][672]LogLinker:Warning: Can't find file for asset '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton' while loading NULL.
+[2015.08.17-04.47.23:605][672]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.17-04.47.23:708][672]Cmd: MAP LOAD FILE="../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/MapAndGameMode/Spook_World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.17-04.47.23:708][672]LightingResults: New page: Lighting Build
+[2015.08.17-04.47.23:717][672]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
+[2015.08.17-04.47.23:737][672]LoadErrors: New page: Loading map: Spook_World.umap
+[2015.08.17-04.47.23:737][672]MapCheck: New page: Map Check
+[2015.08.17-04.47.23:737][672]LightingResults: New page: Lighting Build
+[2015.08.17-04.47.23:744][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014C96F20
+[2015.08.17-04.47.24:037][672]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.17-04.47.24:314][672]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpMaterial.cpp (124) 4 : NpMaterial::setRestitution: Invalid value 14785.600586 was clamped to [0,1]!
+[2015.08.17-04.47.24:314][672]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpMaterial.cpp (124) 4 : NpMaterial::setRestitution: Invalid value 14785.600586 was clamped to [0,1]!
+[2015.08.17-04.47.24:318][672]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.17-04.47.24:479][672]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.17-04.47.24:513][672]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.282ms to complete.
+[2015.08.17-04.47.24:513][672]LogFileHelpers: Loading map 'Spook_World' took 0.806
+[2015.08.17-04.47.24:621][673]Cmd: UpdateLandscapeEditorData -warnings
+[2015.08.17-04.47.24:622][673]Cmd: UpdateLandscapeEditorData
+[2015.08.17-04.47.28:775][159]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.08.17-04.47.29:380][226]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.08.17-04.47.29:891][286]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.08.17-04.47.30:452][352]LogEditorViewport: Clicking on Actor (LMB): BoarController_C (BoarController)
+[2015.08.17-04.47.30:836][388]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.08.17-04.47.31:587][472]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.08.17-04.47.32:050][526]LogEditorViewport: Clicking on Actor (LMB): BoarController_C (BoarController)
+[2015.08.17-04.48.51:172][772]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.08.17-04.48.53:267][ 12]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.48.53:466][ 30]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.48.54:349][131]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.48.55:500][261]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.48.56:847][419]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.48.58:539][620]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.48.58:625][626]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.48.58:697][628]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.49.00:056][787]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.49.07:903][708]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.49.07:941][708]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.49.28:272][ 56]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.49.28:341][ 56]LogSavePackage: Save=6.349867ms
+[2015.08.17-04.49.28:341][ 56]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/PhysMat_BoarB811588E4E418AAE7CCA25B7A1CDFB9F.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/PhysMat_Boar.uasset'
+[2015.08.17-04.49.30:678][307]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.49.30:690][307]LogMaterial: Missing cached shader map for material Mat_Boar, compiling. 
+[2015.08.17-04.49.30:746][307]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.49.30:792][307]LogMaterial: Missing cached shader map for material Mat_Boar, compiling. 
+[2015.08.17-04.49.30:803][307]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.17-04.49.30:829][307]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2015.08.17-04.49.33:097][436]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.17-04.49.33:097][436]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.17-04.49.33:097][436]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.17-04.49.33:135][438]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.49.35:639][679]LogMaterial: Missing cached shader map for material Mat_Boar, compiling. 
+[2015.08.17-04.49.35:649][679]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.17-04.49.36:878][754]LogMaterialEditor: Saving and Compiling material Mat_Boar
+[2015.08.17-04.49.37:258][754]LogMaterial: Missing cached shader map for material Mat_Boar, compiling. 
+[2015.08.17-04.49.37:284][754]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.17-04.49.37:291][754]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.49.37:351][754]LogMaterial: Missing cached shader map for material Mat_Boar, compiling. 
+[2015.08.17-04.49.37:390][754]LogMaterial: Missing cached shader map for material Mat_Boar, compiling. 
+[2015.08.17-04.49.37:412][754]LogMaterial: 0.001616 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.17-04.49.37:430][754]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.49.41:357][754]LogSavePackage: Save=10.537412ms
+[2015.08.17-04.49.41:357][754]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/Mat_Boar2FCAB7924A6328D8797FBF9556E43EBE.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Mat_Boar.uasset'
+[2015.08.17-04.49.41:362][754]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.08.17-04.49.41:362][754]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.17-04.49.41:362][754]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.08.17-04.50.00:552][163]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.50.00:594][163]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\jackson.luff\Downloads\Boar_Model.fbx)
+[2015.08.17-04.50.00:612][163]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.08.17-04.50.00:612][163]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.08.17-04.50.00:612][163]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.08.17-04.50.00:612][163]LogFbx: ItemName: NodeAttribute, ItemCount : 41
+[2015.08.17-04.50.00:612][163]LogFbx: ItemName: Model, ItemCount : 57
+[2015.08.17-04.50.00:612][163]LogFbx: ItemName: Geometry, ItemCount : 15
+[2015.08.17-04.50.00:612][163]LogFbx: ItemName: Material, ItemCount : 1
+[2015.08.17-04.50.00:612][163]LogFbx: ItemName: AnimationCurveNode, ItemCount : 185
+[2015.08.17-04.50.00:612][163]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2015.08.17-04.50.00:612][163]LogFbx: ItemName: AnimationCurve, ItemCount : 370
+[2015.08.17-04.50.00:612][163]LogFbx: ItemName: Pose, ItemCount : 15
+[2015.08.17-04.50.00:612][163]LogFbx: ItemName: Deformer, ItemCount : 115
+[2015.08.17-04.50.00:626][163]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.50.13:782][163]LogFbx: Loading FBX Scene from C:\Users\jackson.luff\Downloads\Boar_Model.fbx
+[2015.08.17-04.50.13:811][163]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node START [boar_lefttusk_right] 
+[2015.08.17-04.50.13:815][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node Attribute Child 1] boar_lefttusk_right (Type Mesh).
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node END [boar_lefttusk_right]
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node START [boar_ear_right] 
+[2015.08.17-04.50.13:815][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node Attribute Child 1] boar_ear_right (Type Mesh).
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node END [boar_ear_right]
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node START [boar_tusk_left] 
+[2015.08.17-04.50.13:815][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node Attribute Child 1] boar_tusk_left (Type Mesh).
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node END [boar_tusk_left]
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node START [boar_ear_left] 
+[2015.08.17-04.50.13:815][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node Attribute Child 1] boar_ear_left (Type Mesh).
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node END [boar_ear_left]
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node START [boar_eye_right] 
+[2015.08.17-04.50.13:815][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node Attribute Child 1] boar_eye_right (Type Mesh).
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node END [boar_eye_right]
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node START [boar_brow_right] 
+[2015.08.17-04.50.13:815][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node Attribute Child 1] boar_brow_right (Type Mesh).
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node END [boar_brow_right]
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node START [boar_eye_left] 
+[2015.08.17-04.50.13:815][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node Attribute Child 1] boar_eye_left (Type Mesh).
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node END [boar_eye_left]
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node START [boar_brow_left] 
+[2015.08.17-04.50.13:815][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:815][163]LogFbx: 		[Node Attribute Child 1] boar_brow_left (Type Mesh).
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node END [boar_brow_left]
+[2015.08.17-04.50.13:815][163]LogFbx: =================================================
+[2015.08.17-04.50.13:815][163]LogFbx: Dumping Node START [boar_hairTop_right] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_right (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_hairTop_right]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_hairTop_left] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_left (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_hairTop_left]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_hairTop_mid] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_mid (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_hairTop_mid]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_hairSide_left] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_hairSide_left (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_hairSide_left]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_hairSide_right] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_hairSide_right (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_hairSide_right]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_hairChin_mid] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_hairChin_mid (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_hairChin_mid]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_hairChin_sides] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_hairChin_sides (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_hairChin_sides]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_lefttusk_right] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_lefttusk_right (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_lefttusk_right]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_ear_right] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_ear_right (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_ear_right]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_tusk_left] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_tusk_left (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_tusk_left]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_ear_left] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_ear_left (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_ear_left]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_eye_right] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_eye_right (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_eye_right]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_brow_right] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_brow_right (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_brow_right]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_eye_left] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_eye_left (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_eye_left]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_brow_left] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_brow_left (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_brow_left]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_hairTop_right] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_right (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_hairTop_right]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_hairTop_left] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_left (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_hairTop_left]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_hairTop_mid] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_mid (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_hairTop_mid]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node START [boar_hairSide_left] 
+[2015.08.17-04.50.13:816][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:816][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:816][163]LogFbx: 		[Node Attribute Child 1] boar_hairSide_left (Type Mesh).
+[2015.08.17-04.50.13:816][163]LogFbx: Dumping Node END [boar_hairSide_left]
+[2015.08.17-04.50.13:816][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_hairSide_right] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_hairSide_right (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_hairSide_right]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_hairChin_mid] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_hairChin_mid (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_hairChin_mid]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_hairChin_sides] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_hairChin_sides (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_hairChin_sides]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_lefttusk_right] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_lefttusk_right (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_lefttusk_right]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_ear_right] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_ear_right (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_ear_right]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_tusk_left] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_tusk_left (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_tusk_left]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_ear_left] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_ear_left (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_ear_left]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_eye_right] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_eye_right (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_eye_right]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_brow_right] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_brow_right (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_brow_right]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_eye_left] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_eye_left (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_eye_left]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_brow_left] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_brow_left (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_brow_left]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_hairTop_right] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_right (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_hairTop_right]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_hairTop_left] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_left (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_hairTop_left]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_hairTop_mid] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_mid (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_hairTop_mid]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_hairSide_left] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_hairSide_left (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_hairSide_left]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_hairSide_right] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_hairSide_right (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_hairSide_right]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_hairChin_mid] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 230390448.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_hairChin_mid (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_hairChin_mid]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_hairChin_sides] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_hairChin_sides (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_hairChin_sides]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node START [boar_lefttusk_right] 
+[2015.08.17-04.50.13:817][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:817][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:817][163]LogFbx: 		[Node Attribute Child 1] boar_lefttusk_right (Type Mesh).
+[2015.08.17-04.50.13:817][163]LogFbx: Dumping Node END [boar_lefttusk_right]
+[2015.08.17-04.50.13:817][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_ear_right] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 230387648.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_ear_right (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_ear_right]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_tusk_left] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 230387648.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_tusk_left (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_tusk_left]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_ear_left] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 230387648.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_ear_left (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_ear_left]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_eye_right] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 230387648.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_eye_right (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_eye_right]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_brow_right] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 230387648.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_brow_right (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_brow_right]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_eye_left] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 230387648.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_eye_left (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_eye_left]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_brow_left] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 230387648.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_brow_left (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_brow_left]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_hairTop_right] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_right (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_hairTop_right]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_hairTop_left] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 230387648.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_left (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_hairTop_left]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_hairTop_mid] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 230387648.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_mid (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_hairTop_mid]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_hairSide_left] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_hairSide_left (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_hairSide_left]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_hairSide_right] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_hairSide_right (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_hairSide_right]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_hairChin_mid] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 230387648.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_hairChin_mid (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_hairChin_mid]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_hairChin_sides] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_hairChin_sides (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_hairChin_sides]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_hairTop_right] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_right (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_hairTop_right]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_hairTop_left] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 230387648.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_left (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_hairTop_left]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_hairTop_mid] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 230387648.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_hairTop_mid (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_hairTop_mid]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_hairSide_left] 
+[2015.08.17-04.50.13:818][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:818][163]LogFbx: 		[Node Attribute Child 1] boar_hairSide_left (Type Mesh).
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node END [boar_hairSide_left]
+[2015.08.17-04.50.13:818][163]LogFbx: =================================================
+[2015.08.17-04.50.13:818][163]LogFbx: Dumping Node START [boar_hairSide_right] 
+[2015.08.17-04.50.13:819][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:819][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:819][163]LogFbx: =================================================
+[2015.08.17-04.50.13:819][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:819][163]LogFbx: 		[Node Attribute Child 1] boar_hairSide_right (Type Mesh).
+[2015.08.17-04.50.13:819][163]LogFbx: Dumping Node END [boar_hairSide_right]
+[2015.08.17-04.50.13:819][163]LogFbx: =================================================
+[2015.08.17-04.50.13:819][163]LogFbx: Dumping Node START [boar_hairChin_mid] 
+[2015.08.17-04.50.13:819][163]LogFbx: 	Total Deformer Count 230387648.
+[2015.08.17-04.50.13:819][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:819][163]LogFbx: =================================================
+[2015.08.17-04.50.13:819][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:819][163]LogFbx: 		[Node Attribute Child 1] boar_hairChin_mid (Type Mesh).
+[2015.08.17-04.50.13:819][163]LogFbx: Dumping Node END [boar_hairChin_mid]
+[2015.08.17-04.50.13:819][163]LogFbx: =================================================
+[2015.08.17-04.50.13:819][163]LogFbx: Dumping Node START [boar_hairChin_sides] 
+[2015.08.17-04.50.13:819][163]LogFbx: 	Total Deformer Count 353648896.
+[2015.08.17-04.50.13:819][163]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.50.13:819][163]LogFbx: =================================================
+[2015.08.17-04.50.13:819][163]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.50.13:819][163]LogFbx: 		[Node Attribute Child 1] boar_hairChin_sides (Type Mesh).
+[2015.08.17-04.50.13:819][163]LogFbx: Dumping Node END [boar_hairChin_sides]
+[2015.08.17-04.50.13:820][163]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster1) - boar_lefttusk_right
+[2015.08.17-04.50.13:821][163]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster2) - boar_lefttusk_right
+[2015.08.17-04.50.13:821][163]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster3) - boar_lefttusk_right
+[2015.08.17-04.50.13:821][163]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster4) - boar_lefttusk_right
+[2015.08.17-04.50.13:821][163]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster6) - boar_lefttusk_right
+[2015.08.17-04.50.13:821][163]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster7) - boar_lefttusk_right
+[2015.08.17-04.50.13:821][163]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster8) - boar_lefttusk_right
+[2015.08.17-04.50.13:821][163]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster9) - boar_lefttusk_right
+[2015.08.17-04.50.13:821][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_lefttusk_right : The relative matrices do not match
+[2015.08.17-04.50.13:821][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_ear_right : The relative matrices do not match
+[2015.08.17-04.50.13:821][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_tusk_left : The relative matrices do not match
+[2015.08.17-04.50.13:821][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_ear_left : The relative matrices do not match
+[2015.08.17-04.50.13:821][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_eye_right : The relative matrices do not match
+[2015.08.17-04.50.13:822][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_brow_right : The relative matrices do not match
+[2015.08.17-04.50.13:822][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_eye_left : The relative matrices do not match
+[2015.08.17-04.50.13:822][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_brow_left : The relative matrices do not match
+[2015.08.17-04.50.13:822][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_hairTop_right : The relative matrices do not match
+[2015.08.17-04.50.13:822][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_hairTop_left : The relative matrices do not match
+[2015.08.17-04.50.13:822][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_hairTop_mid : The relative matrices do not match
+[2015.08.17-04.50.13:822][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_hairSide_left : The relative matrices do not match
+[2015.08.17-04.50.13:822][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_hairSide_right : The relative matrices do not match
+[2015.08.17-04.50.13:822][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_hairChin_mid : The relative matrices do not match
+[2015.08.17-04.50.13:822][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_hairChin_sides : The relative matrices do not match
+[2015.08.17-04.50.13:822][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_lefttusk_right : The relative matrices do not match
+[2015.08.17-04.50.13:823][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_ear_right : The relative matrices do not match
+[2015.08.17-04.50.13:823][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_tusk_left : The relative matrices do not match
+[2015.08.17-04.50.13:823][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_ear_left : The relative matrices do not match
+[2015.08.17-04.50.13:823][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_eye_right : The relative matrices do not match
+[2015.08.17-04.50.13:823][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_brow_right : The relative matrices do not match
+[2015.08.17-04.50.13:823][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_eye_left : The relative matrices do not match
+[2015.08.17-04.50.13:823][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_brow_left : The relative matrices do not match
+[2015.08.17-04.50.13:823][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_hairTop_right : The relative matrices do not match
+[2015.08.17-04.50.13:823][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_hairTop_left : The relative matrices do not match
+[2015.08.17-04.50.13:823][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_hairTop_mid : The relative matrices do not match
+[2015.08.17-04.50.13:823][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_hairSide_left : The relative matrices do not match
+[2015.08.17-04.50.13:824][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_hairSide_right : The relative matrices do not match
+[2015.08.17-04.50.13:824][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_hairChin_mid : The relative matrices do not match
+[2015.08.17-04.50.13:824][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_hairChin_sides : The relative matrices do not match
+[2015.08.17-04.50.13:824][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_lefttusk_right : The relative matrices do not match
+[2015.08.17-04.50.13:824][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_ear_right : The relative matrices do not match
+[2015.08.17-04.50.13:824][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_tusk_left : The relative matrices do not match
+[2015.08.17-04.50.13:824][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_ear_left : The relative matrices do not match
+[2015.08.17-04.50.13:824][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_eye_right : The relative matrices do not match
+[2015.08.17-04.50.13:824][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_brow_right : The relative matrices do not match
+[2015.08.17-04.50.13:824][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_eye_left : The relative matrices do not match
+[2015.08.17-04.50.13:824][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_brow_left : The relative matrices do not match
+[2015.08.17-04.50.13:825][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_hairTop_right : The relative matrices do not match
+[2015.08.17-04.50.13:825][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_hairTop_left : The relative matrices do not match
+[2015.08.17-04.50.13:825][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_hairTop_mid : The relative matrices do not match
+[2015.08.17-04.50.13:825][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_hairSide_left : The relative matrices do not match
+[2015.08.17-04.50.13:825][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_hairSide_right : The relative matrices do not match
+[2015.08.17-04.50.13:825][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_hairChin_mid : The relative matrices do not match
+[2015.08.17-04.50.13:825][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_hairChin_sides : The relative matrices do not match
+[2015.08.17-04.50.13:825][163]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster13) - boar_lefttusk_right
+[2015.08.17-04.50.13:825][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_lefttusk_right : The relative matrices do not match
+[2015.08.17-04.50.13:825][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_ear_right : The relative matrices do not match
+[2015.08.17-04.50.13:826][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_tusk_left : The relative matrices do not match
+[2015.08.17-04.50.13:826][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_ear_left : The relative matrices do not match
+[2015.08.17-04.50.13:826][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_eye_right : The relative matrices do not match
+[2015.08.17-04.50.13:826][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_brow_right : The relative matrices do not match
+[2015.08.17-04.50.13:826][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_eye_left : The relative matrices do not match
+[2015.08.17-04.50.13:826][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_brow_left : The relative matrices do not match
+[2015.08.17-04.50.13:826][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_hairTop_right : The relative matrices do not match
+[2015.08.17-04.50.13:826][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_hairTop_left : The relative matrices do not match
+[2015.08.17-04.50.13:826][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_hairTop_mid : The relative matrices do not match
+[2015.08.17-04.50.13:826][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_hairSide_left : The relative matrices do not match
+[2015.08.17-04.50.13:826][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_hairSide_right : The relative matrices do not match
+[2015.08.17-04.50.13:826][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_hairChin_mid : The relative matrices do not match
+[2015.08.17-04.50.13:827][163]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_hairChin_sides : The relative matrices do not match
+[2015.08.17-04.50.13:827][163]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster15) - boar_lefttusk_right
+[2015.08.17-04.50.13:827][163]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster16) - boar_lefttusk_right
+[2015.08.17-04.50.13:834][163]LogFbx:Warning: Bones digested - 56  Depth of hierarchy - 13
+[2015.08.17-04.50.13:849][163]LogSkeletalMesh: Chunk 0: 2662 rigid vertices, 218 soft vertices, 14 active bones
+[2015.08.17-04.50.13:850][163]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 2594 triangles
+[2015.08.17-04.50.13:851][163]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_PhysicsAsset'
+[2015.08.17-04.50.13:851][163]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_PhysicsAsset'
+[2015.08.17-04.50.13:851][163]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Spook/Characters/Boar/Resources/Boar_Model_PhysicsAsset.Boar_Model_PhysicsAsset'
+[2015.08.17-04.50.13:853][163]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.50.13:853][163]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.50.13:853][163]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton.Boar_Model_Skeleton'
+[2015.08.17-04.50.13:859][163]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+boar_hairTop_right  
+boar_hairTop_left  
+boar_hairTop_mid  
+boar_hairSide_right  
+boar_frontFoot_left  
+boar_shoulderJoint_right  
+boar_frontElbow_right  
+boar_frontCarpelJoint_right  
+boar_frontFoot_right  
+boar_tail_01  
+boar_tail_02  
+boar_tail_03  
+boar_tail_04  
+boar_tail_05  
+boar_tail_06  
+boar_Pubis  
+boar_hipJoint_left  
+boar_knee_left  
+boar_backCarpel_left  
+boar_backFoot_left  
+boar_hipJoint_right  
+boar_knee_right  
+boar_backCarpel_right  
+boar_backFoot_right  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2015.08.17-04.50.13:864][163]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.50.19:682][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.17-04.50.19:682][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.08.17-04.50.19:690][763]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AC865C0
+[2015.08.17-04.50.19:706][763]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.50.20:720][763]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.51.16:541][842]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.51.16:581][842]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.51.16:610][842]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.17-04.51.16:668][842]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.17-04.51.17:289][842]LogActor:Warning: GameNetworkManager /Engine/Transient.World_9:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.17-04.51.19:094][ 11]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.51.19:148][ 11]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.51.21:897][298]BlueprintLog: New page: Compile SpookGameMode
+[2015.08.17-04.51.21:934][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.17-04.51.21:934][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.08.17-04.51.21:969][298]BlueprintEditorCompileResults: Info [0261.23] Compile of SpookGameMode successful! [in 71 ms]
+[2015.08.17-04.51.22:426][347]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.51.22:523][347]LogSavePackage: Save=18.779099ms
+[2015.08.17-04.51.22:523][347]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/SpookGameModeCA48C8D84C06781CC99CEBB2697900FC.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/MapAndGameMode/SpookGameMode.uasset'
+[2015.08.17-04.51.33:899][746]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.17-04.51.33:910][746]PIE: New page: PIE session: Spook_World (18 Aug 2015 12:51:33 am)
+[2015.08.17-04.51.33:910][746]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.17-04.51.34:009][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098306s)
+[2015.08.17-04.51.34:009][746]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.17-04.51.34:010][746]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2015.08.17-04.51.34:010][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.099496s)
+[2015.08.17-04.51.34:035][746]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2015.08.17-04.51.34:042][746]LogInit: FAudioDevice initialized.
+[2015.08.17-04.51.34:099][746]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.17-04.51.34:120][746]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.17-14.51.34
+[2015.08.17-04.51.34:120][746]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.17-04.51.34:121][746]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.17-04.51.34:122][746]LogWorld: Bringing up level for play took: 0.021062
+[2015.08.17-04.51.34:125][746]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.563
+[2015.08.17-04.51.47:361][320]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F4F79C0
+[2015.08.17-04.52.08:189][863]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.52.08:244][863]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\jackson.luff\Downloads\Boar_Model.fbx)
+[2015.08.17-04.52.08:259][863]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.08.17-04.52.08:259][863]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.08.17-04.52.08:259][863]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.08.17-04.52.08:259][863]LogFbx: ItemName: NodeAttribute, ItemCount : 41
+[2015.08.17-04.52.08:259][863]LogFbx: ItemName: Model, ItemCount : 57
+[2015.08.17-04.52.08:259][863]LogFbx: ItemName: Geometry, ItemCount : 16
+[2015.08.17-04.52.08:259][863]LogFbx: ItemName: Material, ItemCount : 1
+[2015.08.17-04.52.08:259][863]LogFbx: ItemName: AnimationCurveNode, ItemCount : 185
+[2015.08.17-04.52.08:259][863]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2015.08.17-04.52.08:259][863]LogFbx: ItemName: AnimationCurve, ItemCount : 370
+[2015.08.17-04.52.08:259][863]LogFbx: ItemName: Pose, ItemCount : 16
+[2015.08.17-04.52.08:259][863]LogFbx: ItemName: Deformer, ItemCount : 153
+[2015.08.17-04.52.08:291][863]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.52.18:300][863]LogFbx: Loading FBX Scene from C:\Users\jackson.luff\Downloads\Boar_Model.fbx
+[2015.08.17-04.52.18:335][863]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_lefttusk_right] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_lefttusk_right (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_lefttusk_right]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_ear_right] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_ear_right (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_ear_right]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_tusk_left] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_tusk_left (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_tusk_left]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_ear_left] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_ear_left (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_ear_left]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_Body] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 771172992.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_Body (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_Body]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_eye_right] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_eye_right (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_eye_right]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_brow_right] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_brow_right (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_brow_right]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_eye_left] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_eye_left (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_eye_left]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_brow_left] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_brow_left (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_brow_left]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_hairTop_right] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_right (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_hairTop_right]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_hairTop_left] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_left (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_hairTop_left]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_hairTop_mid] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_mid (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_hairTop_mid]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_hairSide_left] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_hairSide_left (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_hairSide_left]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_hairSide_right] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_hairSide_right (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_hairSide_right]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_hairChin_mid] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node Attribute Child 1] boar_hairChin_mid (Type Mesh).
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node END [boar_hairChin_mid]
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:340][863]LogFbx: Dumping Node START [boar_hairChin_sides] 
+[2015.08.17-04.52.18:340][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:340][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:340][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_hairChin_sides (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_hairChin_sides]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_lefttusk_right] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_lefttusk_right (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_lefttusk_right]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_ear_right] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_ear_right (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_ear_right]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_tusk_left] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_tusk_left (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_tusk_left]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_ear_left] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_ear_left (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_ear_left]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_Body] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 771172992.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_Body (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_Body]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_eye_right] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_eye_right (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_eye_right]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_brow_right] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_brow_right (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_brow_right]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_eye_left] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_eye_left (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_eye_left]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_brow_left] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_brow_left (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_brow_left]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_hairTop_right] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_right (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_hairTop_right]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_hairTop_left] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_left (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_hairTop_left]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_hairTop_mid] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_mid (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_hairTop_mid]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_hairSide_left] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_hairSide_left (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_hairSide_left]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_hairSide_right] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_hairSide_right (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_hairSide_right]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_hairChin_mid] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_hairChin_mid (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_hairChin_mid]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_hairChin_sides] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_hairChin_sides (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_hairChin_sides]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_lefttusk_right] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_lefttusk_right (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_lefttusk_right]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_ear_right] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node Attribute Child 1] boar_ear_right (Type Mesh).
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node END [boar_ear_right]
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: Dumping Node START [boar_tusk_left] 
+[2015.08.17-04.52.18:341][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:341][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:341][863]LogFbx: =================================================
+[2015.08.17-04.52.18:341][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_tusk_left (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_tusk_left]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_ear_left] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_ear_left (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_ear_left]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_Body] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 771172928.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_Body (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_Body]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_eye_right] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_eye_right (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_eye_right]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_brow_right] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_brow_right (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_brow_right]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_eye_left] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_eye_left (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_eye_left]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_brow_left] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_brow_left (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_brow_left]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_hairTop_right] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_right (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_hairTop_right]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_hairTop_left] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_left (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_hairTop_left]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_hairTop_mid] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_mid (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_hairTop_mid]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_hairSide_left] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_hairSide_left (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_hairSide_left]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_hairSide_right] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_hairSide_right (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_hairSide_right]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_hairChin_mid] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 922749024.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_hairChin_mid (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_hairChin_mid]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_hairChin_sides] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_hairChin_sides (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_hairChin_sides]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_lefttusk_right] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_lefttusk_right (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_lefttusk_right]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_ear_right] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 922750144.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_ear_right (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_ear_right]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_tusk_left] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 922750144.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_tusk_left (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_tusk_left]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_ear_left] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 922750144.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_ear_left (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_ear_left]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_Body] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 771172928.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node Attribute Child 1] boar_Body (Type Mesh).
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node END [boar_Body]
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: Dumping Node START [boar_eye_right] 
+[2015.08.17-04.52.18:342][863]LogFbx: 	Total Deformer Count 922750144.
+[2015.08.17-04.52.18:342][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:342][863]LogFbx: =================================================
+[2015.08.17-04.52.18:342][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_eye_right (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_eye_right]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_brow_right] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 922750144.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_brow_right (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_brow_right]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_eye_left] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 922750144.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_eye_left (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_eye_left]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_brow_left] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 922750144.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_brow_left (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_brow_left]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_hairTop_right] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_right (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_hairTop_right]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_hairTop_left] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 922750144.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_left (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_hairTop_left]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_hairTop_mid] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 922750144.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_mid (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_hairTop_mid]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_hairSide_left] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_hairSide_left (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_hairSide_left]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_hairSide_right] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_hairSide_right (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_hairSide_right]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_hairChin_mid] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 922750144.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_hairChin_mid (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_hairChin_mid]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_hairChin_sides] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_hairChin_sides (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_hairChin_sides]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_hairTop_right] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_right (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_hairTop_right]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_hairTop_left] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 922750144.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_left (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_hairTop_left]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_hairTop_mid] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 922750144.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_hairTop_mid (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_hairTop_mid]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_hairSide_left] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_hairSide_left (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_hairSide_left]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_hairSide_right] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_hairSide_right (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_hairSide_right]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_hairChin_mid] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 922750144.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_hairChin_mid (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_hairChin_mid]
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node START [boar_hairChin_sides] 
+[2015.08.17-04.52.18:343][863]LogFbx: 	Total Deformer Count 755393504.
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node 1]  (Type Skin).
+[2015.08.17-04.52.18:343][863]LogFbx: =================================================
+[2015.08.17-04.52.18:343][863]LogFbx: 	Attribute () Type (4).
+[2015.08.17-04.52.18:343][863]LogFbx: 		[Node Attribute Child 1] boar_hairChin_sides (Type Mesh).
+[2015.08.17-04.52.18:343][863]LogFbx: Dumping Node END [boar_hairChin_sides]
+[2015.08.17-04.52.18:344][863]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster1) - boar_lefttusk_right
+[2015.08.17-04.52.18:344][863]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster2) - boar_lefttusk_right
+[2015.08.17-04.52.18:344][863]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster3) - boar_lefttusk_right
+[2015.08.17-04.52.18:344][863]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster4) - boar_lefttusk_right
+[2015.08.17-04.52.18:345][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_lefttusk_right : The relative matrices do not match
+[2015.08.17-04.52.18:345][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_ear_right : The relative matrices do not match
+[2015.08.17-04.52.18:345][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_tusk_left : The relative matrices do not match
+[2015.08.17-04.52.18:346][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_ear_left : The relative matrices do not match
+[2015.08.17-04.52.18:346][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_Body : The relative matrices do not match
+[2015.08.17-04.52.18:346][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_eye_right : The relative matrices do not match
+[2015.08.17-04.52.18:346][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_brow_right : The relative matrices do not match
+[2015.08.17-04.52.18:347][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_eye_left : The relative matrices do not match
+[2015.08.17-04.52.18:347][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_brow_left : The relative matrices do not match
+[2015.08.17-04.52.18:347][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_hairTop_right : The relative matrices do not match
+[2015.08.17-04.52.18:348][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_hairTop_left : The relative matrices do not match
+[2015.08.17-04.52.18:348][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_hairTop_mid : The relative matrices do not match
+[2015.08.17-04.52.18:348][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_hairSide_left : The relative matrices do not match
+[2015.08.17-04.52.18:348][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_hairSide_right : The relative matrices do not match
+[2015.08.17-04.52.18:349][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_hairChin_mid : The relative matrices do not match
+[2015.08.17-04.52.18:349][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster5) - Node boar_hairChin_sides : The relative matrices do not match
+[2015.08.17-04.52.18:349][863]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster6) - boar_lefttusk_right
+[2015.08.17-04.52.18:349][863]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster7) - boar_lefttusk_right
+[2015.08.17-04.52.18:349][863]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster8) - boar_lefttusk_right
+[2015.08.17-04.52.18:349][863]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster9) - boar_lefttusk_right
+[2015.08.17-04.52.18:349][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_lefttusk_right : The relative matrices do not match
+[2015.08.17-04.52.18:349][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_ear_right : The relative matrices do not match
+[2015.08.17-04.52.18:350][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_tusk_left : The relative matrices do not match
+[2015.08.17-04.52.18:350][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_ear_left : The relative matrices do not match
+[2015.08.17-04.52.18:350][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_Body : The relative matrices do not match
+[2015.08.17-04.52.18:350][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_eye_right : The relative matrices do not match
+[2015.08.17-04.52.18:350][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_brow_right : The relative matrices do not match
+[2015.08.17-04.52.18:350][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_eye_left : The relative matrices do not match
+[2015.08.17-04.52.18:350][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_brow_left : The relative matrices do not match
+[2015.08.17-04.52.18:350][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_hairTop_right : The relative matrices do not match
+[2015.08.17-04.52.18:350][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_hairTop_left : The relative matrices do not match
+[2015.08.17-04.52.18:350][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_hairTop_mid : The relative matrices do not match
+[2015.08.17-04.52.18:350][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_hairSide_left : The relative matrices do not match
+[2015.08.17-04.52.18:350][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_hairSide_right : The relative matrices do not match
+[2015.08.17-04.52.18:351][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_hairChin_mid : The relative matrices do not match
+[2015.08.17-04.52.18:351][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster10) - Node boar_hairChin_sides : The relative matrices do not match
+[2015.08.17-04.52.18:351][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_lefttusk_right : The relative matrices do not match
+[2015.08.17-04.52.18:351][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_ear_right : The relative matrices do not match
+[2015.08.17-04.52.18:351][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_tusk_left : The relative matrices do not match
+[2015.08.17-04.52.18:351][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_ear_left : The relative matrices do not match
+[2015.08.17-04.52.18:351][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_Body : The relative matrices do not match
+[2015.08.17-04.52.18:351][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_eye_right : The relative matrices do not match
+[2015.08.17-04.52.18:351][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_brow_right : The relative matrices do not match
+[2015.08.17-04.52.18:351][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_eye_left : The relative matrices do not match
+[2015.08.17-04.52.18:351][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_brow_left : The relative matrices do not match
+[2015.08.17-04.52.18:352][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_hairTop_right : The relative matrices do not match
+[2015.08.17-04.52.18:352][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_hairTop_left : The relative matrices do not match
+[2015.08.17-04.52.18:352][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_hairTop_mid : The relative matrices do not match
+[2015.08.17-04.52.18:352][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_hairSide_left : The relative matrices do not match
+[2015.08.17-04.52.18:352][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_hairSide_right : The relative matrices do not match
+[2015.08.17-04.52.18:352][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_hairChin_mid : The relative matrices do not match
+[2015.08.17-04.52.18:352][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster11) - Node boar_hairChin_sides : The relative matrices do not match
+[2015.08.17-04.52.18:352][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_lefttusk_right : The relative matrices do not match
+[2015.08.17-04.52.18:352][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_ear_right : The relative matrices do not match
+[2015.08.17-04.52.18:352][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_tusk_left : The relative matrices do not match
+[2015.08.17-04.52.18:352][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_ear_left : The relative matrices do not match
+[2015.08.17-04.52.18:353][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_Body : The relative matrices do not match
+[2015.08.17-04.52.18:353][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_eye_right : The relative matrices do not match
+[2015.08.17-04.52.18:353][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_brow_right : The relative matrices do not match
+[2015.08.17-04.52.18:353][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_eye_left : The relative matrices do not match
+[2015.08.17-04.52.18:353][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_brow_left : The relative matrices do not match
+[2015.08.17-04.52.18:353][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_hairTop_right : The relative matrices do not match
+[2015.08.17-04.52.18:353][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_hairTop_left : The relative matrices do not match
+[2015.08.17-04.52.18:353][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_hairTop_mid : The relative matrices do not match
+[2015.08.17-04.52.18:353][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_hairSide_left : The relative matrices do not match
+[2015.08.17-04.52.18:353][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_hairSide_right : The relative matrices do not match
+[2015.08.17-04.52.18:353][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_hairChin_mid : The relative matrices do not match
+[2015.08.17-04.52.18:353][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster12) - Node boar_hairChin_sides : The relative matrices do not match
+[2015.08.17-04.52.18:354][863]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster13) - boar_lefttusk_right
+[2015.08.17-04.52.18:354][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_lefttusk_right : The relative matrices do not match
+[2015.08.17-04.52.18:354][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_ear_right : The relative matrices do not match
+[2015.08.17-04.52.18:354][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_tusk_left : The relative matrices do not match
+[2015.08.17-04.52.18:354][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_ear_left : The relative matrices do not match
+[2015.08.17-04.52.18:354][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_Body : The relative matrices do not match
+[2015.08.17-04.52.18:354][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_eye_right : The relative matrices do not match
+[2015.08.17-04.52.18:354][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_brow_right : The relative matrices do not match
+[2015.08.17-04.52.18:354][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_eye_left : The relative matrices do not match
+[2015.08.17-04.52.18:354][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_brow_left : The relative matrices do not match
+[2015.08.17-04.52.18:354][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_hairTop_right : The relative matrices do not match
+[2015.08.17-04.52.18:355][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_hairTop_left : The relative matrices do not match
+[2015.08.17-04.52.18:355][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_hairTop_mid : The relative matrices do not match
+[2015.08.17-04.52.18:355][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_hairSide_left : The relative matrices do not match
+[2015.08.17-04.52.18:355][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_hairSide_right : The relative matrices do not match
+[2015.08.17-04.52.18:355][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_hairChin_mid : The relative matrices do not match
+[2015.08.17-04.52.18:355][863]LogFbx:Warning: Not valid bind pose for Pose (boar_0014:boar_0013:skinCluster14) - Node boar_hairChin_sides : The relative matrices do not match
+[2015.08.17-04.52.18:355][863]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster15) - boar_lefttusk_right
+[2015.08.17-04.52.18:355][863]LogFbx: Valid bind pose for Pose (boar_0014:boar_0013:skinCluster16) - boar_lefttusk_right
+[2015.08.17-04.52.18:373][863]LogFbx:Warning: Bones digested - 57  Depth of hierarchy - 13
+[2015.08.17-04.52.18:422][863]LogSkeletalMesh: Chunk 0: 3729 rigid vertices, 3025 soft vertices, 33 active bones
+[2015.08.17-04.52.18:426][863]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 8816 triangles
+[2015.08.17-04.52.18:428][863]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_PhysicsAsset'
+[2015.08.17-04.52.18:428][863]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_PhysicsAsset'
+[2015.08.17-04.52.18:428][863]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Spook/Characters/Boar/Resources/Boar_Model_PhysicsAsset.Boar_Model_PhysicsAsset'
+[2015.08.17-04.52.18:435][863]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.52.18:435][863]LogLinker:Warning: Can't find file '/Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton'
+[2015.08.17-04.52.18:435][863]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Spook/Characters/Boar/Resources/Boar_Model_Skeleton.Boar_Model_Skeleton'
+[2015.08.17-04.52.18:446][863]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+boar_Body  
+boar_hairTop_right  
+boar_hairTop_left  
+boar_hairTop_mid  
+boar_hairSide_right  
+boar_frontFoot_left  
+boar_shoulderJoint_right  
+boar_frontElbow_right  
+boar_frontCarpelJoint_right  
+boar_frontFoot_right  
+boar_tail_01  
+boar_tail_02  
+boar_tail_03  
+boar_tail_04  
+boar_tail_05  
+boar_tail_06  
+boar_Pubis  
+boar_hipJoint_left  
+boar_knee_left  
+boar_backCarpel_left  
+boar_backFoot_left  
+boar_hipJoint_right  
+boar_knee_right  
+boar_backCarpel_right  
+boar_backFoot_right  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2015.08.17-04.52.18:452][863]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.52.25:219][641]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.52.25:961][641]LogSavePackage: Save=661.507446ms
+[2015.08.17-04.52.25:961][641]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/Spook_WorldB79449DB4F9A06B37A25579A597BB6D5.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/MapAndGameMode/Spook_World.umap'
+[2015.08.17-04.52.26:748][730]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.52.26:780][730]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.52.29:276][904]LogRenderer: Reallocating scene render targets to support 1208x904 (Frame:18165).
+[2015.08.17-04.52.33:075][248]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.52.34:823][358]LogAnimation:Warning: AnimBP AnimBP_Boar_C is incompatible with skeleton Boar_Model_Skeleton, removing AnimBP from actor.
+[2015.08.17-04.52.34:823][358]LogAnimation:Warning: AnimBP AnimBP_Boar_C is incompatible with skeleton Boar_Model_Skeleton, removing AnimBP from actor.
+[2015.08.17-04.52.34:823][358]LogAnimation:Warning: AnimBP AnimBP_Boar_C is incompatible with skeleton Boar_Model_Skeleton, removing AnimBP from actor.
+[2015.08.17-04.52.34:824][358]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpMaterial.cpp (124) 4 : NpMaterial::setRestitution: Invalid value 14000.000000 was clamped to [0,1]!
+[2015.08.17-04.52.36:482][488]BlueprintLog: New page: Compile BoarController
+[2015.08.17-04.52.36:587][488]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.17-04.52.36:603][488]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DD42160
+[2015.08.17-04.52.36:626][488]BlueprintEditorCompileResults: Info [0335.88] Compile of BoarController successful! [in 143 ms]
+[2015.08.17-04.52.39:465][735]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.52.39:479][735]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.08.17-04.52.42:259][957]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.17-04.52.45:420][220]BlueprintLog: New page: Compile BoarController
+[2015.08.17-04.52.45:527][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.08.17-04.52.45:563][220]BlueprintEditorCompileResults: Info [0344.82] Compile of BoarController successful! [in 143 ms]
+[2015.08.17-04.52.46:107][273]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.52.46:246][273]LogSavePackage: Save=88.074966ms
+[2015.08.17-04.52.46:246][273]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/BoarControllerC9E59BBF4E09BB09D31F538FD06C6DBE.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/BoarController.uasset'
+[2015.08.17-04.52.52:425][963]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.52.52:501][963]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.52.52:682][963]LogActor:Warning: GameNetworkManager /Engine/Transient.World_11:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.17-04.52.53:735][ 83]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.52.53:745][ 83]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.08.17-04.52.55:748][298]BlueprintLog: New page: Compile SpookGameMode
+[2015.08.17-04.52.55:786][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.17-04.52.55:818][298]BlueprintEditorCompileResults: Info [0355.08] Compile of SpookGameMode successful! [in 69 ms]
+[2015.08.17-04.52.56:344][357]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.52.56:383][357]LogSavePackage: Save=5.604062ms
+[2015.08.17-04.52.56:383][357]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/SpookGameMode43A547224B938AA8FA06CCBBD4B9959D.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/MapAndGameMode/SpookGameMode.uasset'
+[2015.08.17-04.52.58:213][557]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.17-04.52.58:213][557]PIE: New page: PIE session: Spook_World (18 Aug 2015 12:52:58 am)
+[2015.08.17-04.52.58:214][557]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.17-04.52.58:309][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095113s)
+[2015.08.17-04.52.58:309][557]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.17-04.52.58:310][557]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2015.08.17-04.52.58:310][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.096603s)
+[2015.08.17-04.52.58:334][557]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2015.08.17-04.52.58:340][557]LogInit: FAudioDevice initialized.
+[2015.08.17-04.52.58:371][557]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.17-04.52.58:392][557]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.17-14.52.58
+[2015.08.17-04.52.58:392][557]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.17-04.52.58:392][557]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.17-04.52.58:394][557]LogWorld: Bringing up level for play took: 0.021591
+[2015.08.17-04.52.58:396][557]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World -0.292
+[2015.08.17-04.53.02:977][ 94]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035651080
+[2015.08.17-04.53.10:035][938]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.10:102][938]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.11:891][ 52]BlueprintLog: New page: Compile BoarController
+[2015.08.17-04.53.11:976][ 52]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.17-04.53.12:010][ 52]BlueprintEditorCompileResults: Info [0371.27] Compile of BoarController successful! [in 119 ms]
+[2015.08.17-04.53.15:554][309]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.17-04.53.15:581][309]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.16:352][309]LogSavePackage: Save=683.274353ms
+[2015.08.17-04.53.16:352][309]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/Spook_WorldCFB4C9654B3E5804F8974AB70C20C443.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/MapAndGameMode/Spook_World.umap'
+[2015.08.17-04.53.16:393][309]LogFileHelpers: Saving map 'Spook_World' took 0.787
+[2015.08.17-04.53.16:435][309]LogSavePackage: Save=19.257528ms
+[2015.08.17-04.53.16:435][309]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/Boar_Model09EA3E6A457E8B266FFD29AFB97FF831.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Boar_Model.uasset'
+[2015.08.17-04.53.16:450][309]LogSavePackage: Save=9.325692ms
+[2015.08.17-04.53.16:450][309]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/Boar_Model_PhysicsAsset147B564C468C5BD3568D149F433CA86D.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Boar_Model_PhysicsAsset.uasset'
+[2015.08.17-04.53.16:460][309]LogSavePackage: Save=2.637340ms
+[2015.08.17-04.53.16:460][309]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/Boar_Model_Skeleton7EC4BB174FED04EEDA9A9B9B21B4ADF2.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Boar_Model_Skeleton.uasset'
+[2015.08.17-04.53.19:371][518]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.19:409][518]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.23:441][601]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.23:475][601]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.26:101][601]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.30:040][860]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.30:205][860]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2015.08.17-04.53.30:326][860]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.17-04.53.30:397][860]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.08.17-04.53.31:605][949]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035BBC0E0
+[2015.08.17-04.53.31:605][949]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000005A560C0
+[2015.08.17-04.53.31:605][949]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A0ACFE0
+[2015.08.17-04.53.31:606][949]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A0AD3A0
+[2015.08.17-04.53.31:622][949]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.31:730][949]LogSavePackage: Save=13.287106ms
+[2015.08.17-04.53.31:730][949]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/BlendSpace_BoarDF4173F946528A739EC8009AEB9CA3C5.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/BlendSpace_Boar.uasset'
+[2015.08.17-04.53.31:782][949]LogSavePackage: Save=13.715190ms
+[2015.08.17-04.53.31:782][949]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/Boar_Model_Idle0F398591478A345AB37A53A2160DB6DF.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/Boar_Model_Idle.uasset'
+[2015.08.17-04.53.31:825][949]LogSavePackage: Save=13.671102ms
+[2015.08.17-04.53.31:825][949]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/Boar_Model_Run03D0891240919E39B3CBF38FBF83F16D.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/Boar_Model_Run.uasset'
+[2015.08.17-04.53.35:301][223]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.17-04.53.35:301][223]PIE: New page: PIE session: Spook_World (18 Aug 2015 12:53:35 am)
+[2015.08.17-04.53.35:301][223]LogPlayLevel: Creating play world package: /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World
+[2015.08.17-04.53.35:400][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098698s)
+[2015.08.17-04.53.35:401][223]LogAIModule: Creating AISystem for world Spook_World
+[2015.08.17-04.53.35:401][223]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2015.08.17-04.53.35:401][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Spook/MapAndGameMode/Spook_World.Spook_World to /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World (0.099851s)
+[2015.08.17-04.53.35:426][223]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2015.08.17-04.53.35:432][223]LogInit: FAudioDevice initialized.
+[2015.08.17-04.53.35:463][223]LogWorld: Game class is 'SpookGameMode_C'
+[2015.08.17-04.53.35:484][223]LogWorld: Bringing World /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World up for play (max tick rate 0) at 2015.08.17-14.53.35
+[2015.08.17-04.53.35:484][223]LogActor:Warning: GameSession /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.17-04.53.35:485][223]LogActor:Warning: GameNetworkManager /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World.Spook_World:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.17-04.53.35:486][223]LogWorld: Bringing up level for play took: 0.021687
+[2015.08.17-04.53.35:488][223]PIE: Info Play in editor start time for /Game/Spook/MapAndGameMode/UEDPIE_0_Spook_World 0.799
+[2015.08.17-04.53.36:984][351]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000387CE020
+[2015.08.17-04.53.42:241][725]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.42:274][725]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.43:803][725]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.43:811][725]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.46:901][807]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.46:940][807]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.48:707][807]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.55:104][143]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.55:143][143]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.57:699][143]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.53.57:712][143]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.54.12:566][ 95]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.54.20:833][742]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.54.28:207][284]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.54.28:241][284]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.54.30:209][284]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.54.30:222][284]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.54.33:630][396]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.54.33:674][396]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.54.34:555][396]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.54.36:846][479]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.54.38:278][572]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.54.40:114][690]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.54.43:407][920]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.54.43:413][920]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.55.05:488][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039D7C900
+[2015.08.17-04.55.05:489][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039CF3C40
+[2015.08.17-04.55.05:489][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039DF20C0
+[2015.08.17-04.55.05:489][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039DF3CE0
+[2015.08.17-04.55.05:511][431]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.55.05:548][431]LogSavePackage: Save=2.831897ms
+[2015.08.17-04.55.05:548][431]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/BlendSpace_BoarD964BE99414B78F804B0FE8AA949E05E.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/BlendSpace_Boar.uasset'
+[2015.08.17-04.55.05:579][431]LogSavePackage: Save=13.278573ms
+[2015.08.17-04.55.05:579][431]LogSavePackage: Moving '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Saved/Anim_BP_Boar_Model8E8D3D2941E38AA1F7474A86E26A2117.tmp' to '../../../../../../Users/jackson.luff/Desktop/Spook_Prototype_PAT/Content/Spook/Characters/Boar/Resources/Animations/Anim_BP_Boar_Model.uasset'
+[2015.08.17-04.55.06:537][494]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.55.06:803][494]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2015.08.17-04.55.13:669][ 18]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.55.17:030][ 18]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.55.20:218][ 18]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.55.21:570][ 18]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.55.21:656][ 18]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SKEL_AnimBP_Boar_C' or package '/Game/Spook/Characters/Boar/Resources/Animations/AnimBP_Boar'.
+[2015.08.17-04.55.21:700][ 18]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003AC4CFE0
+[2015.08.17-04.55.21:700][ 18]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B1E9260
+[2015.08.17-04.55.21:700][ 18]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003AC4CC20
+[2015.08.17-04.55.21:700][ 18]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038825080
+[2015.08.17-04.55.21:701][ 18]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E7D3A60
+[2015.08.17-04.55.21:701][ 18]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002E2591C0
+[2015.08.17-04.55.21:793][ 18]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002E25A980
+[2015.08.17-04.55.21:795][ 18]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.55.23:002][ 18]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.55.25:567][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.17-04.55.25:594][156]LogD3D11RHI: InitD3DDevice
+[2015.08.17-04.55.25:745][156]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.08.17-04.55.25:750][156]LogCrashTracker: 
+
+
+[2015.08.17-04.55.28:138][156]LogCrashTracker: 
+
+
+[2015.08.17-04.55.28:138][156]LogWindows: === Critical error: ===
+Assertion failed: GetDefaultsCount()==GetPropertiesSize() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp] [Line: 3417] 
+
+
+
+KERNELBASE.dll {0x000007fefd2d940d} + 0 bytes
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() {0x000007fee69f7c0f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FOutputDevice::Logf__VA() {0x000007fee68b10b8} + 159 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::AssertFailed() {0x000007fee6881e72} + 65 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UClass::Serialize() {0x000007fee630a1c9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UBlueprintGeneratedClass::Serialize() {0x000007fee2ad4916} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!TFindObjectReferencers<UObject>::TFindObjectReferencers<UObject>() {0x000007fee0b9d72c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FReplaceReferenceHelper::FindAndReplaceReferences() {0x000007fee0be3b4e} + 30 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::FinalizeFastReinstancing() {0x000007fee0be2cb2} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceObjects() {0x000007fee0c0e225} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FKismetEditorUtilities::CompileBlueprint() {0x000007fee0bd0186} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::PreSaveRoot() {0x000007fee32a18c2} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UPackage::SavePackage() {0x000007fee641a386} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::SavePackage() {0x000007fee03a08b2} + 115 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Exec_Obj() {0x000007fee03f36ce} + 72 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Exec() {0x000007fee03f013b} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Exec() {0x000007fee0805aa1} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!SaveWorld() {0x000007fee04af422} + 135 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorFileUtils::SaveMap() {0x000007fee04ae198} + 47 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!InternalSavePackage() {0x000007fee0492863} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorFileUtils::PromptForCheckoutAndSave() {0x000007fee04a2b5b} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!InternalSavePackages() {0x000007fee049301d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorFileUtils::SaveDirtyPackages() {0x000007fee04adc1d} + 49 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-MainFrame.dll!FMainFrameActionCallbacks::SaveAll() {0x000007feed07c929} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-MainFrame.dll!TBaseStaticDelegateInstance<void __cdecl(void)>::ExecuteIfSafe() {0x000007feed0610f7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FUICommandList::ConditionalProcessCommandBindings() {0x000007fee2402539} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FUICommandList::ProcessCommandBindings() {0x000007fee245659c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-MainFrame.dll!FMainFrameActionCallbacks::OnUnhandledKeyDownEvent() {0x000007feed07483e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-MainFrame.dll!TTupleImpl<TIntegerSequence<> >::ApplyAfter_ExplicitReturnType<FReply,FReply (__cdecl*const & __ptr64)(FKeyEvent const & __ptr64),FKeyEvent const & __ptr64>() {0x000007feed0379af} + 11 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-MainFrame.dll!TBaseStaticDelegateInstance<FReply __cdecl(FKeyEvent const & __ptr64)>::Execute() {0x000007feed060bc1} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TBaseDelegate<FReply,FKeyEvent const & __ptr64>::Execute() {0x000007fee24129ba} + 6 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() {0x000007fee2457468} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() {0x000007fee24448e6} + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x000007fee69ed483} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x000007fee69d49d1} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x000007fee69eedc3} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x000007fee69ce5ba} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x0000000077179bd1} + 0 bytes
+USER32.dll {0x00000000771798da} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x000007fee69f0186} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x000000013fd03c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x000000013fcf49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x000000013fcf4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x000000013fd065c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x000000013fd075d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll {0x00000000770559ed} + 0 bytes
+ntdll.dll {0x000000007728c541} + 0 bytes
+ntdll.dll {0x000000007728c541} + 0 bytes
+
